@@ -28,3 +28,7 @@
 - Unified APIs of local libraries and remote
   clients (both pass the same API acceptance
   tests)
+- Ensure no more Workers than CPUs are being
+  used, also from different processes (FsSet)
+- Started development of Mafalda Node and
+  remote Mediasoup

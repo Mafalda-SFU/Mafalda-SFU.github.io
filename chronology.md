@@ -24,3 +24,8 @@
 - Started development of remote Mediasoup and Mafalda clients
 - Unified APIs of local libraries and remote clients (both pass the same API
   acceptance tests)
+
+## August 2021
+
+- Develop remote Mediasoup and Mafalda Node servers
+- Design P2P decentralized federation protocol for horizontal scalability

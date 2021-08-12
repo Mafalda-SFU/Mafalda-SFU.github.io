@@ -32,3 +32,5 @@
 
 - Develop remote Mediasoup and Mafalda Node servers
 - Design P2P decentralized federation protocol for horizontal scalability
+- First corporate client of vertical scaling
+  ([Deepgrid Datacentre](https://deepgrid.in/))

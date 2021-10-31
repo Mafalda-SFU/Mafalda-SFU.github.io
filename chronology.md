@@ -46,29 +46,36 @@
   complete
 - remote control integration tests are passing
 
+### October 2021
+
+- Improve tests coverage of remote control and fix tests auxiliar dependencies
+- Fix remote objects protocol and full restore of remote state on connection
+- Adjust to new Mediasoup API (removal of leaked private properties and methods)
+
+### November 2021
+
+- Improved documentation
+- 100% tests coverage for all remote control modules
+
 ## Roadmap
 
 All dates are estimated and can suffer of variations depending of the found
 difficulties, development speed, or due to having other personal or professional
-priorities.
+priorities. If you are interested on any of the future roadmap topics, contact us to discuss a sponsorship or commercial services.
 
-### October 2021
-
-- 100% tests coverage for all remote control modules
-
-### Round 3: hierarchical horizontal scaling (November 2021 - February 2022)
+### Round 3: hierarchical horizontal scaling (December 2021 - April 2022)
 
 Use of remote control modules to create a central controller that can dispatch
 and delegate requests to the Mafalda instances running in other servers, and
 route and interconnect them.
 
-### Round 4: P2P decentralized horizontal scaling (March - May 2022)
+### Round 4: P2P decentralized horizontal scaling (May - August 2022)
 
 Use of a Distributed Hash Table to register the Mafalda instances and send
 requests directly between them, without a central controller. Also use it to
 search for original `Producer`s of a stream and ask for them to connect.
 
-### Round 5: network monitorization (June - August 2022)
+### Round 5: network monitorization (September - December 2022)
 
 Tool to monitor in real time the usage and capacity of all servers and clients
 in the network: CPU usage of `Worker`s, number of `Router`s and `Transport`s...

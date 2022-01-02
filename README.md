@@ -24,9 +24,9 @@ time they provide a familiar and easy to use API.
   Mediasoup instances.
 - [Remote Mafalda server]() & [Remote Mafalda client](): remote control of
   Mafalda instances.
-- *Mediasoup-horizontal*: Mediasoup horizontal scalability, allow to use
+- [Mediasoup-horizontal](): Mediasoup horizontal scalability, allow to use
   Mediasoup Worker instances located on multiple servers from a single place as
-  if they were local to it. _Currently in development_
+  if they were local to it.
 - *Mafalda-horizontal*: Mafalda horizontal scalability, allow to have Router
   objects that transparently span over multiple servers and CPUs.
   _Currently in development_
@@ -92,8 +92,6 @@ servers, your solution is to use [Mediasoup-horizontal](). This will allows you
 to control multiple Mediasoup instances as a single one, allowing to have remote
 Workers and Routers all over them in a transparent way, as if running a single
 machine with a lot of CPU cores.
-
-_Currently in development_
 
 ### I need to host huge sessions that will span several CPUs in multiple servers
 

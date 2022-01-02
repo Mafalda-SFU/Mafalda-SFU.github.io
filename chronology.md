@@ -55,6 +55,11 @@
 ### November 2021
 
 - Improved documentation
+- All Mafalda modules are composable between them
+
+### December 2021
+
+- Implemented Mediasoup horizontal scalability, with 100% tests coverage
 - 100% tests coverage for all remote control modules
 
 ## Roadmap

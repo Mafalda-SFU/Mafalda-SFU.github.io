@@ -68,7 +68,7 @@ All dates are estimated and can suffer of variations depending of the found
 difficulties, development speed, or due to having other personal or professional
 priorities. If you are interested on any of the future roadmap topics, contact us to discuss a sponsorship or commercial services.
 
-### Round 3: hierarchical horizontal scaling (December 2021 - April 2022)
+### Round 3: Mafalda hierarchical horizontal scaling (January 2022 - April 2022)
 
 Use of remote control modules to create a central controller that can dispatch
 and delegate requests to the Mafalda instances running in other servers, and

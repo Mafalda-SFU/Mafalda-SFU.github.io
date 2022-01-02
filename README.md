@@ -106,13 +106,13 @@ _Currently in development_
 
 ### I host humongous big sessions, and need to access them from multiple places
 
-If your sessions can be *really* big or can't predict when that usage spikes
-could happen or can be a lot of difference in sessions load from ones to other,
-if the number of servers you need to manage is huge or you can't easily control
-when or how to add them, if you need that stream distribution auto-regulates
-itself finding the shortest path, or if you need to access the servers network
-from multiple entry points (for example, from multiple regions), then *now we're
-talking*.
+If your sessions can be *really* big or can't be predicted when that usage
+spikes could happen or can be a lot of difference in sessions load from ones to
+other, if the number of servers you need to manage is huge or you can't easily
+control when or how to add them, if you need that stream distribution auto
+regulates itself finding the shortest path, or if you need to access the servers
+network from multiple entry points (for example, from multiple regions), then
+*now we're talking*.
 
 [Mafalda-swarm]() will provide a federated and decentralized P2P architecture
 build on top of the Mafalda network, self-managing its resources and allowing

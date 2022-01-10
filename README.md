@@ -67,9 +67,9 @@ use [Mafalda-horizontal]() and scale your app to multiple servers.
 
 ### I have mixed app logic and media, and want to split to improve architecture
 
-If your app server code directly access Mediasoup API and need to move it out to
-another machine to improve your systems architecture or use a server with more
-resources to improve media performance, the easiest solution is to use
+If your app server code directly access Mediasoup API, and need to move it out
+to another machine to improve your systems architecture or use a server with
+more resources to improve media performance, the easiest solution is to use
 [Remote Mediasoup]() package. After creating and configuring a Remote Mediasoup
 client, it will expose an object with the same API that Mediasoup provides, so
 your you'll be able to control a Mediasoup instance running in another server

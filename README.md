@@ -27,6 +27,8 @@ time they provide a familiar and easy to use API.
 - [Mediasoup-horizontal](): Mediasoup horizontal scalability, allow to use
   Mediasoup Worker instances located on multiple servers from a single place as
   if they were local to it.
+- [Mediasoup-cluster](): standalone server using Mediasoup-horizontal to control
+  multiple Remote Mediasoup servers from a single endpoint.
 - *Mafalda-horizontal*: Mafalda horizontal scalability, allow to have Router
   objects that transparently span over multiple servers and CPUs.
   _Currently in development_
@@ -74,7 +76,8 @@ your you'll be able to control a Mediasoup instance running in another server
 without needing to modify the logic of your app code at all.
 
 Alternatively, you can also use [Mediasoup-horizontal](), that will already
-prepare your application to scale to multiple servers without changes.
+prepare your application to scale to multiple servers without changes, or use a
+Remote Mediasoup client instance to connect to a [Mediasoup-cluster]() server.
 
 ### I'm using Mafalda, and want to move out media server to improve performance
 
@@ -88,10 +91,12 @@ allow each one of your sessions to grow and span over multiple CPUs and servers.
 ### My app uses Mediasoup, and I need to scale it to a large number of servers
 
 If you need your Mediasoup-based app to being able to manage multiple media
-servers, your solution is to use [Mediasoup-horizontal](). This will allows you
-to control multiple Mediasoup instances as a single one, allowing to have remote
-Workers and Routers all over them in a transparent way, as if running a single
-machine with a lot of CPU cores.
+servers, your solutions are to use [Mediasoup-horizontal]() if you want your app
+to control them directly, or use [Mediasoup-cluster]() if you want to split the
+management of the multiple media servers from your actual app logic. Both of
+them will allows you to control multiple Mediasoup instances as a single one,
+and to have remote Workers and Routers all over them in a transparent way, as if
+running a single machine with a lot of CPU cores.
 
 ### I need to host huge sessions that will span several CPUs in multiple servers
 

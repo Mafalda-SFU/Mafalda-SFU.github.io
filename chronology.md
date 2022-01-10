@@ -60,6 +60,10 @@
 ### December 2021
 
 - Implemented Mediasoup horizontal scalability, with 100% tests coverage
+
+### January 2022
+
+- Implemented `Mediasoup-cluster`, with 100% tests coverage
 - 100% tests coverage for all remote control modules
 
 ## Roadmap

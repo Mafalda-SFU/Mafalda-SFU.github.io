@@ -64,7 +64,16 @@
 ### January 2022
 
 - Implemented `Mediasoup-cluster`, with 100% tests coverage
+- Improve reliability of remote control
 - 100% tests coverage for all remote control modules
+
+### February and March 2022
+
+Development was temporaly paused during this period.
+
+### April 2022
+
+- Develop transparent reconnections support for `Remote-Mediasoup-client`
 
 ## Roadmap
 
@@ -72,19 +81,19 @@ All dates are estimated and can suffer of variations depending of the found
 difficulties, development speed, or due to having other personal or professional
 priorities. If you are interested on any of the future roadmap topics, contact us to discuss a sponsorship or commercial services.
 
-### Round 3: Mafalda hierarchical horizontal scaling (January 2022 - April 2022)
+### Round 3: Mafalda hierarchical horizontal scaling (July 2022 - October 2022)
 
 Use of remote control modules to create a central controller that can dispatch
 and delegate requests to the Mafalda instances running in other servers, and
 route and interconnect them.
 
-### Round 4: P2P decentralized horizontal scaling (May - August 2022)
+### Round 4: P2P decentralized horizontal scaling (November 2022 - February 2023)
 
 Use of a Distributed Hash Table to register the Mafalda instances and send
 requests directly between them, without a central controller. Also use it to
 search for original `Producer`s of a stream and ask for them to connect.
 
-### Round 5: network monitorization (September - December 2022)
+### Round 5: network monitorization (March 2023 - June 2023)
 
 Tool to monitor in real time the usage and capacity of all servers and clients
 in the network: CPU usage of `Worker`s, number of `Router`s and `Transport`s...

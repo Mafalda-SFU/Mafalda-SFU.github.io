@@ -75,6 +75,13 @@ Development was temporaly paused during this period.
 
 - Develop transparent reconnections support for `Remote-Mediasoup-client`
 
+### May 2022
+
+- Fully implement transparent reconnections support for
+  `Remote-Mediasoup-client`
+- Port [EduMeet](https://github.com/edumeet/edumeet) to `Remote Mediasoup` in
+  [just 25 lines of code]()
+
 ## Roadmap
 
 All dates are estimated and can suffer of variations depending of the found

@@ -23,7 +23,8 @@ provide a familiar and easy to use API.
   objects that by-pass Mediasoup per-Worker limits.
 - [Remote Mediasoup server](Remote-Mediasoup-server) &
   [Remote Mediasoup client](Remote-Mediasoup-client): remote control of
-  Mediasoup instances.
+  Mediasoup instances, both of them build on top of [ROPE server](ROPE-server) &
+  [ROPE client](ROPE-client).
 - [Remote Mafalda server](Remote-Mafalda-server) &
   [Remote Mafalda client](Remote-Mafalda-client): remote control of Mafalda
   instances.
@@ -42,6 +43,13 @@ provide a familiar and easy to use API.
 - *Mafalda-monitor*: Mafalda network monitoring tool, allow to control stats and
   loads of the servers in the network and their connected clients.
   *Estimated December 2022*
+
+### Auxiliary packages
+
+- [ROPE server](ROPE-server) & [ROPE client](ROPE-client): canonical
+  implementations of the *Remote Objects, Procedures and Events* protocol, that
+  allow remote control of objects located as if they were local, including
+  sync'ed updates of remote state, also when multiple clients are involved.
 
 ## What package should I use?
 

@@ -47,7 +47,7 @@ them in a mix-n-match way to create the best fit for your use case. The next
 diagram shows all the possible combinations:
 
 ```mermaid
-graph
+graph TD
   mediasoup(Mediasoup)
   mediasoupHorizontal(Mediasoup Horizontal)
   remoteMediasoupClient(Remote Mediasoup client)
@@ -85,6 +85,14 @@ graph
   class mediasoup,mediasoupHorizontal,remoteMediasoupClient mediasoupAPI
   class mafalda,remoteMafaldaClient mafaldaApi
   class remoteMafaldaServer,remoteMediasoupServer remoteMediasoupAPI
+
+  click mediasoup "https://mediasoup.org/"
+  click mediasoupHorizontal "Mediasoup-horizontal"
+  click remoteMediasoupClient "Remote-Mediasoup-client"
+  click remoteMediasoupServer "Remote-Mediasoup-server"
+  click mafalda "Mafalda"
+  click remoteMafaldaClient "Remote-Mafalda-client"
+  click remoteMafaldaServer "Remote-Mafalda-server"
 ```
 
 Thick lines represent main connections, thin lines are compatible ones but their
@@ -123,6 +131,9 @@ graph TD
 
   class mediasoup mediasoupAPI
   class mafalda mafaldaApi
+
+  click mediasoup "https://mediasoup.org/"
+  click mafalda "Mafalda"
 ```
 
 ### I'm using only non-interconnected Router instances that I need them to scale
@@ -165,6 +176,10 @@ graph RL
 
   class mediasoup,remoteMediasoupClient mediasoupAPI
   class remoteMediasoupServer remoteMediasoupAPI
+
+  click mediasoup "https://mediasoup.org/"
+  click remoteMediasoupClient "Remote-Mediasoup-client"
+  click remoteMediasoupServer "Remote-Mediasoup-server"
 ```
 
 Alternatively, you can also use [Mediasoup-horizontal](Mediasoup-horizontal),
@@ -203,6 +218,10 @@ graph RL
   class mafalda mafaldaApi
   class remoteMediasoupClient mediasoupAPI
   class remoteMediasoupServer remoteMediasoupAPI
+
+  click remoteMediasoupClient "Remote-Mediasoup-client"
+  click remoteMediasoupServer "Remote-Mediasoup-server"
+  click mafalda "Mafalda"
 ```
 
 ```mermaid
@@ -235,6 +254,11 @@ graph RL
   class remoteMafaldaClient mafaldaApi
   class remoteMediasoupClient mediasoupAPI
   class remoteMafaldaServer,remoteMediasoupServer remoteMediasoupAPI
+
+  click remoteMediasoupClient "Remote-Mediasoup-client"
+  click remoteMediasoupServer "Remote-Mediasoup-server"
+  click remoteMafaldaClient "Remote-Mafalda-client"
+  click remoteMafaldaServer "Remote-Mafalda-server"
 ```
 
 ### My app uses Mediasoup, and I need to scale it to a large number of servers
@@ -255,10 +279,10 @@ graph RL
   remoteMediasoupServer2(Remote Mediasoup server 2)
 
   subgraph App server
-    mediasoupHorizonal(Mediasoup Horizontal)
+    mediasoupHorizontal(Mediasoup Horizontal)
 
-    mediasoupHorizonal --> remoteMediasoupClient1(Remote Mediasoup client 1)
-    mediasoupHorizonal --> remoteMediasoupClient2(Remote Mediasoup client 2)
+    mediasoupHorizontal --> remoteMediasoupClient1(Remote Mediasoup client 1)
+    mediasoupHorizontal --> remoteMediasoupClient2(Remote Mediasoup client 2)
   end
 
   remoteMediasoupClient1 -.-> remoteMediasoupServer1
@@ -267,18 +291,24 @@ graph RL
   classDef mediasoupAPI       fill:#1eb6e8,stroke:#333,font-family:PoiretOne
   classDef remoteMediasoupAPI fill:#9f6,stroke:#333
 
-  class mediasoupHorizonal mediasoupAPI
+  class mediasoupHorizontal mediasoupAPI
   class remoteMediasoupClient1,remoteMediasoupClient2 mediasoupAPI
   class remoteMediasoupServer1,remoteMediasoupServer2 remoteMediasoupAPI
+
+  click mediasoupHorizontal "Mediasoup-horizontal"
+  click remoteMediasoupClient1 "Remote-Mediasoup-client"
+  click remoteMediasoupClient2 "Remote-Mediasoup-client"
+  click remoteMediasoupServer1 "Remote-Mediasoup-server"
+  click remoteMediasoupServer2 "Remote-Mediasoup-server"
 ```
 
 ```mermaid
 graph RL
   subgraph Mediasoup cluster
-    remoteMediasoupServer(Remote Mediasoup server) --> mediasoupHorizonal(Mediasoup-horizontal)
+    remoteMediasoupServer(Remote Mediasoup server) --> mediasoupHorizontal(Mediasoup-horizontal)
 
-    mediasoupHorizonal --> remoteMediasoupClient1(Remote Mediasoup client 1)
-    mediasoupHorizonal --> remoteMediasoupClient2(Remote Mediasoup client 2)
+    mediasoupHorizontal --> remoteMediasoupClient1(Remote Mediasoup client 1)
+    mediasoupHorizontal --> remoteMediasoupClient2(Remote Mediasoup client 2)
   end
 
   remoteMediasoupClient(Remote Mediasoup client) -.-> remoteMediasoupServer
@@ -286,9 +316,15 @@ graph RL
   classDef remoteMediasoupAPI fill:#9f6,stroke:#333
   classDef mediasoupAPI       fill:#1eb6e8,stroke:#333,font-family:PoiretOne
 
-  class mediasoupHorizonal,remoteMediasoupClient mediasoupAPI
+  class mediasoupHorizontal,remoteMediasoupClient mediasoupAPI
   class remoteMediasoupClient1,remoteMediasoupClient2 mediasoupAPI
   class remoteMediasoupServer remoteMediasoupAPI
+
+  click mediasoupHorizontal "Mediasoup-horizontal"
+  click remoteMediasoupClient "Remote-Mediasoup-client"
+  click remoteMediasoupClient1 "Remote-Mediasoup-client"
+  click remoteMediasoupClient2 "Remote-Mediasoup-client"
+  click remoteMediasoupServer "Remote-Mediasoup-server"
 ```
 
 ### I need to host huge sessions that will span several CPUs in multiple servers
@@ -339,6 +375,16 @@ graph RL
   class remoteMediasoupClient1,remoteMediasoupClient2 mediasoupAPI
   class remoteMafaldaServer1,remoteMafaldaServer2 remoteMediasoupAPI
   class remoteMediasoupServer1,remoteMediasoupServer2 remoteMediasoupAPI
+
+  click remoteMediasoupClient1 "Remote-Mediasoup-client"
+  click remoteMediasoupClient2 "Remote-Mediasoup-client"
+  click remoteMediasoupServer1 "Remote-Mediasoup-server"
+  click remoteMediasoupServer2 "Remote-Mediasoup-server"
+  click remoteMafaldaClient1 "Remote-Mafalda-client"
+  click remoteMafaldaClient2 "Remote-Mafalda-client"
+  click remoteMafaldaServer1 "Remote-Mafalda-server"
+  click remoteMafaldaServer2 "Remote-Mafalda-server"
+  click mafaldaHorizonal "Mafalda-horizontal"
 ```
 
 *Currently in development*

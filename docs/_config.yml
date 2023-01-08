@@ -1,1 +1,7 @@
+jekyll-spaceship:
+  mermaid-processor:
+    syntax:
+      code: 'mermaid'
+plugins:
+  - jekyll-spaceship
 theme: jekyll-theme-cayman

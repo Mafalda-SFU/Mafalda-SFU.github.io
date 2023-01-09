@@ -69,7 +69,7 @@
 
 ### February and March 2022
 
-Development was temporaly paused during this period.
+Development was temporaly paused due to profesional responsabilities.
 
 ### April 2022
 
@@ -82,25 +82,47 @@ Development was temporaly paused during this period.
 - Port [EduMeet](https://github.com/edumeet/edumeet) to `Remote Mediasoup` in
   [just 25 lines of code]()
 
+### June 2022
+
+- Define customized linting configuration and unify code style in all projects
+- De-duplicate `appData` objects in `Remote Mediasoup`
+
+### July 2022
+
+- Finish de-duplication of `appData` objects in `Remote Mediasoup`
+
+### August to November 2022
+
+Development was temporaly paused due to profesional responsabilities.
+
+### December 2022
+
+- Fix final bugs for porting EduMeet to `Remote Mediasoup`
+- Automate and update projects documentation
+
+### January 2023
+
+- Update projects documentation and main webpage
+
 ## Roadmap
 
 All dates are estimated and can suffer of variations depending of the found
 difficulties, development speed, or due to having other personal or professional
 priorities. If you are interested on any of the future roadmap topics, contact us to discuss a sponsorship or commercial services.
 
-### Round 3: Mafalda hierarchical horizontal scaling (July 2022 - October 2022)
+### Round 3: Mafalda hierarchical horizontal scaling (January 2023 - April 2023)
 
 Use of remote control modules to create a central controller that can dispatch
 and delegate requests to the Mafalda instances running in other servers, and
 route and interconnect them.
 
-### Round 4: P2P decentralized horizontal scaling (November 2022 - February 2023)
+### Round 4: P2P decentralized horizontal scaling (May 2023 - August 2023)
 
 Use of a Distributed Hash Table to register the Mafalda instances and send
 requests directly between them, without a central controller. Also use it to
 search for original `Producer`s of a stream and ask for them to connect.
 
-### Round 5: network monitorization (March 2023 - June 2023)
+### Round 5: network monitorization (September 2023 - December 2023)
 
 Tool to monitor in real time the usage and capacity of all servers and clients
 in the network: CPU usage of `Worker`s, number of `Router`s and `Transport`s...

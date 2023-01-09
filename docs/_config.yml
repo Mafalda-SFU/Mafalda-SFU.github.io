@@ -4,4 +4,6 @@ jekyll-spaceship:
       code: 'mermaid'
 plugins:
   - jekyll-spaceship
+# https://talk.jekyllrb.com/t/error-your-site-could-not-be-built-no-repo-name-found/5688/3
+repository: Mafalda-SFU/Mafalda-SFU.github.io
 theme: jekyll-theme-cayman

@@ -38,9 +38,7 @@ jobs:
         uses: actions/configure-pages@v2
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
-        run: |
-          cd docs
-          bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}" --destination ../_site
+        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}" --source ./docs
         env:
           JEKYLL_ENV: production
         # uses: actions/jekyll-build-pages@v1

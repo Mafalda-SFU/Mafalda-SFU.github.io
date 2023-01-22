@@ -108,6 +108,10 @@ Development was temporaly paused due to profesional responsabilities.
 ### January 2023
 
 - Update projects documentation and main webpage
+- Update Mafalda repositories to use new `Remote Mediasoup` and ROPE client APIs
+- Improve testing, linting and documentation generation in all projects, and
+  automate them in CI servers
+- Start design and architecture of `Mediasoup vertical` module
 
 ## Roadmap
 

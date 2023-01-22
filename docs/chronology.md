@@ -119,11 +119,9 @@ All dates are estimated and can suffer of variations depending of the found
 difficulties, development speed, or due to having other personal or professional
 priorities. If you are interested on any of the future roadmap topics, contact us to discuss a sponsorship or commercial services.
 
-### Round 3: Mafalda hierarchical horizontal scaling (January 2023 - April 2023)
+### Round 3: Mediasoup vertical scaling (January 2023 - April 2023)
 
-Use of remote control modules to create a central controller that can dispatch
-and delegate requests to the Mafalda instances running in other servers, and
-route and interconnect them.
+Implement vertical scaling of Mediasoup, based on code from Mafalda module.
 
 ### Round 4: P2P decentralized horizontal scaling (May 2023 - August 2023)
 

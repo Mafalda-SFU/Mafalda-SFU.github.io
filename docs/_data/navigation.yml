@@ -1,0 +1,7 @@
+main:
+  - description: Mafalda SFU sub-projects
+    title: Projects
+    url: /projects/
+  - description: Contact and sales
+    title: Contact
+    url: /contact/

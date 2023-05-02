@@ -1,12 +1,40 @@
-minimal_mistakes_skin: sunrise
+breadcrumbs: true
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      read_time: true
+      show_date: true
+facebook:
+  publisher: 100089773552926
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/mafalda_sfu"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/mafalda-sfu"
+include: ["_pages"]
 jekyll-spaceship:
   mermaid-processor:
-    mode: 'pre-fetch'  # fetch image at building stage
+    mode: pre-fetch  # fetch image at building stage
     syntax:
-      code: 'mermaid'
+      code: mermaid
+logo: /assets/images/logo.jpeg
+lunr:
+  search_full_content: true
+  search_within_pages: true
+minimal_mistakes_skin: sunrise
+og_image: /assets/images/logo.jpeg
 plugins:
   - jekyll-include-cache
   - jekyll-spaceship
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+remote_theme: mmistakes/minimal-mistakes@4.24.0
 # https://talk.jekyllrb.com/t/error-your-site-could-not-be-built-no-repo-name-found/5688/3
 repository: Mafalda-SFU/Mafalda-SFU.github.io
+search: true
+twitter:
+  username: mafalda_sfu

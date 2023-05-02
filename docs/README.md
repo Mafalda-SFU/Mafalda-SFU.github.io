@@ -31,6 +31,7 @@ feature_row:
       design, it's easy to upgrade and combine between them if your architecture
       changes
 layout: splash
+permalink: /
 ---
 
 Massively parallel vertical and horizontal scalable SFU (Stream Forwarding Unit)

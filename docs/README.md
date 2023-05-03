@@ -1,4 +1,7 @@
 ---
+excerpt: |
+  Massively parallel vertical and horizontal scalable SFU (Stream Forwarding
+  Unit) built on top of [Mediasoup](https://mediasoup.org/)
 feature_row:
   - image_path: /assets/images/unsplash-gallery-image-1-th.jpg
     alt: "placeholder image 1"
@@ -30,18 +33,19 @@ feature_row:
       Same orthogonal API for all Mafalda modules and inspired by Mediasoup
       design, it's easy to upgrade and combine between them if your architecture
       changes
+header:
+  actions:
+    - label: Contact
+      url: /contact/
+  overlay_color: #f9b248
+intro:
+  - excerpt: |
+    Mafalda SFU allows to create and manage video room sessions with throusands
+    of participants over multiple servers, in a transparent way for both users
+    and developers, without needing to change the application logic of current
+    applications, and with the only limit of the provided hardware resources.
 layout: splash
 permalink: /
 ---
 
-Massively parallel vertical and horizontal scalable SFU (Stream Forwarding Unit)
-built on top of [Mediasoup](https://mediasoup.org/).
-
-Mafalda SFU allows to create and manage video room sessions with throusands of
-participants over multiple servers, in a transparent way for both users and
-developers, without needing to change the application logic of current
-applications, and with the only limit of the provided hardware resources.
-
 {% include feature_row %}
-
-## Created by [Jesús Leganés-Combarro 'piranna'](https://piranna.github.io/)

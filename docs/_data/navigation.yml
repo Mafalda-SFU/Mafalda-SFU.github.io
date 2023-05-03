@@ -1,7 +1,17 @@
 main:
-  - description: Mafalda SFU sub-projects
+  - children:
+    - title: Remote Mediasoup client
+      url: /Remote-Mediasoup-client/
+    - title: Remote Mediasoup server
+      url: /Remote-Mediasoup-server/
+    - title: Mediasoup cluster
+      url: /Mediasoup-cluster/
+    description: Mafalda SFU sub-projects
     title: Projects
     url: /projects/
+  - description: Development blog
+    title: Blog
+    url: /blog/
   - description: Contact and sales
     title: Contact
     url: /contact/

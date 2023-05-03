@@ -1,3 +1,7 @@
+---
+permalink: /projects/
+---
+
 # Mafalda projects
 
 - [Mafalda](Mafalda): Mediasoup vertical scalability, allow to have Router

@@ -1,3 +1,7 @@
+---
+permalink: /contact/
+---
+
 For any Mafalda SFU question, inquiry, or sales information please contact us by
 [email](mailto:info@mafalda.io), or fill the following form:
 

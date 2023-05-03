@@ -1,3 +1,21 @@
+author:
+  name: Jesús Leganés-Combarro ‘piranna’
+  avatar: https://avatars0.githubusercontent.com/u/532414
+  bio: |
+    Passionate computers engineer and ex-PhD. candidate in Computers
+    Engineering. Proud advocate of Open Source, standards, specifications, and
+    best practices.
+  location: "Madrid, Spain / Abu Dhabi, UAE"
+  links:
+    - label: "Personal web page"
+      icon: "fas fa-fw fa-link"
+      url: "https://piranna.github.io"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/piranna"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/el_piranna"
 breadcrumbs: true
 defaults:
   # _posts
@@ -5,29 +23,34 @@ defaults:
       path: ""
       type: posts
     values:
+      author_profile: true
       read_time: true
       show_date: true
 facebook:
   publisher: 100089773552926
 footer:
   links:
-    - label: "Twitter"
+    - label: Twitter
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/mafalda_sfu"
-    - label: "GitHub"
+      url: https://twitter.com/mafalda_sfu
+    - label: GitHub
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/mafalda-sfu"
+      url: https://github.com/mafalda-sfu
+    - label: NPM
+      icon: "fab fa-fw fa-npm"
+      url: https://npmjs.org/mafalda-sfu
 jekyll-spaceship:
   mermaid-processor:
     mode: pre-fetch  # fetch image at building stage
     syntax:
       code: mermaid
-logo: /assets/images/logo.jpeg
+logo: &logo /assets/images/logo.jpeg
 lunr:
   search_full_content: true
   search_within_pages: true
 minimal_mistakes_skin: sunrise
-og_image: /assets/images/logo.jpeg
+name: "[Jesús Leganés-Combarro 'piranna'](https://piranna.github.io)"
+og_image: *logo
 plugins:
   - jekyll-include-cache
   - jekyll-spaceship
@@ -35,5 +58,6 @@ remote_theme: mmistakes/minimal-mistakes@4.24.0
 # https://talk.jekyllrb.com/t/error-your-site-could-not-be-built-no-repo-name-found/5688/3
 repository: Mafalda-SFU/Mafalda-SFU.github.io
 search: true
+title: Mafalda SFU
 twitter:
   username: mafalda_sfu

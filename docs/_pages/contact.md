@@ -10,7 +10,7 @@ For any Mafalda SFU question, inquiry, or sales information please contact us by
   <label>Email:</label>
   <input type="email" name="email" />
   <label>Message:</label>
-  <input type="text" name="message" />
+  <textarea name="message" />
   <button id="my-form-button">Submit</button>
   <p id="my-form-status"></p>
 </form>

@@ -21,7 +21,7 @@ title: Mafalda projects
   *Currently in development*
 - *Mafalda-swarm*: Decentralized horizontal scaling for Mafalda, allow to access
   streams from multiple entry points without a central management, based on P2P
-  technologies and architecture. *Estimated June 2023*
+  technologies and architecture. *Estimated August 2023*
 - *Mafalda-monitor*: Mafalda network monitoring tool, allow to control stats and
   loads of the servers in the network and their connected clients.
   *Estimated December 2023*

@@ -40,10 +40,11 @@ header:
   overlay_color: #f9b248
 intro:
   - excerpt: |
-    Mafalda SFU allows to create and manage video room sessions with throusands
-    of participants over multiple servers, in a transparent way for both users
-    and developers, without needing to change the application logic of current
-    applications, and with the only limit of the provided hardware resources.
+      Mafalda SFU allows to create and manage video room sessions with
+      throusands of participants over multiple servers, in a transparent way for
+      both users and developers, without needing to change the application logic
+      of current applications, and with the only limit of the provided hardware
+      resources.
 layout: splash
 permalink: /
 ---

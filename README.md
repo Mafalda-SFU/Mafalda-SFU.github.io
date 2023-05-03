@@ -1,6 +1,6 @@
 # Mafalda SFU webpage
 
-To automatically adds new docs updates,
+To automatically add new docs updates of projects,
 [add private key to the source repository](https://cpina.github.io/push-to-another-repository-docs/setup-using-ssh-deploy-keys.html#add-private-key-to-the-source-repository)
 and config the
 [cpina/github-action-push-to-another-repository](https://cpina.github.io/push-to-another-repository-docs/generic-example.html#generic-example)

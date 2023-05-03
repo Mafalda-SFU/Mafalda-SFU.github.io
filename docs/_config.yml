@@ -49,7 +49,7 @@ lunr:
   search_full_content: true
   search_within_pages: true
 minimal_mistakes_skin: sunrise
-name: "[Jesús Leganés-Combarro 'piranna'](https://piranna.github.io)"
+name: Jesús Leganés-Combarro 'piranna'
 og_image: *logo
 plugins:
   - jekyll-include-cache

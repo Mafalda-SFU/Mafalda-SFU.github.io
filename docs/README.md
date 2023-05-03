@@ -37,7 +37,7 @@ header:
   actions:
     - label: Contact
       url: /contact/
-  overlay_color: #f9b248
+  overlay_color: "#f9b248"
 intro:
   - excerpt: |
       Mafalda SFU allows to create and manage video room sessions with
@@ -50,4 +50,5 @@ permalink: /
 title: Mafalda SFU
 ---
 
+{% include feature_row id="intro" type="center" %}
 {% include feature_row %}

@@ -47,6 +47,7 @@ intro:
       resources.
 layout: splash
 permalink: /
+title: Mafalda SFU
 ---
 
 {% include feature_row %}

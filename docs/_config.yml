@@ -18,6 +18,13 @@ author:
       url: "https://twitter.com/el_piranna"
 breadcrumbs: true
 defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
   # _posts
   - scope:
       path: ""
@@ -39,6 +46,7 @@ footer:
     - label: NPM
       icon: "fab fa-fw fa-npm"
       url: https://npmjs.org/mafalda-sfu
+include: ["_pages"]
 jekyll-spaceship:
   mermaid-processor:
     mode: pre-fetch  # fetch image at building stage

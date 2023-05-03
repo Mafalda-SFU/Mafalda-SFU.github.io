@@ -1,6 +1,5 @@
 ---
 lang: en
-layout: post
 title: Presenting Mafalda SFU
 ---
 

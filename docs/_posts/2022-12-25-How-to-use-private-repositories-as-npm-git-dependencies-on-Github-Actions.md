@@ -1,6 +1,5 @@
 ---
 lang: en
-layout: post
 title: How to use private repositories as npm git dependencies on Github Actions
 ---
 

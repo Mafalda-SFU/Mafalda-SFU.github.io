@@ -1,6 +1,5 @@
 ---
 lang: en
-layout: post
 title: WebRTC horizontal scaling
 ---
 

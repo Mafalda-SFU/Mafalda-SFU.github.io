@@ -1,6 +1,5 @@
 ---
 lang: en
-layout: post
 title: How to migrate from Jest to node:test
 ---
 

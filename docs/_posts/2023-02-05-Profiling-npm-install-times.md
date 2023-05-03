@@ -1,6 +1,5 @@
 ---
 lang: en
-layout: post
 title: Profiling `npm install` times
 ---
 

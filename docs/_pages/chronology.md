@@ -115,18 +115,34 @@ Development was temporaly paused due to profesional responsabilities.
   automate them in CI servers
 - Start design and architecture of `Mediasoup vertical` module
 
-## Stage 4: Mediasoup vertical scaling (February 2023 - Currently)
+## Stage 4: Mediasoup vertical scaling & packages publishing (February 2023 - Currently)
 
 ### February 2023
 
-- Implement vertical scaling of Mediasoup, based on code from Mafalda module.
+- Work on implement vertical scaling of Mediasoup, based on code from Mafalda
+  module.
+
+### March 2023
+
+- Improve usage and publish of standalone servers
+
+### April 2023
+
+- Improve publish of standalone servers and client libraries
+- Publish packages to NPM and Github Packages Registry
+
+### May 2023
+
+- Update web page and documentation
+- Split out [AppDataManager](AppDataManager) from `Remote Mediasoup` server and
+  client into a new module
 
 ## Roadmap
 
 All dates are estimated and can suffer of variations depending of the found
 difficulties, development speed, or due to having other personal or professional
-priorities. If you are interested on any of the future roadmap topics, contact us
-to discuss a sponsorship or commercial services.
+priorities. If you are interested on any of the future roadmap topics, contact
+us to discuss a sponsorship or commercial services.
 
 ### Stage 5: P2P decentralized horizontal scaling (May 2023 - August 2023)
 
@@ -142,5 +158,5 @@ in the network: CPU usage of `Worker`s, number of `Router`s and `Transport`s...
 ### Stage 7: Mafalda as a Service (January - June 2024)
 
 Notify about actual servers usage so it's possible to spin-up more instances on
-demand, as a previous step to start offering Mafalda an Remote Mediasoup instances
-on the cloud.
+demand, as a previous step to start offering Mafalda an Remote Mediasoup
+instances on the cloud.

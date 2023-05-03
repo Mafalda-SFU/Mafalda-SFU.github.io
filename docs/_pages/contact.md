@@ -1,5 +1,6 @@
 ---
 permalink: /contact/
+title: Contact
 ---
 
 For any Mafalda SFU question, inquiry, or sales information please contact us by

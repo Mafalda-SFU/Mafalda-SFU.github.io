@@ -1,8 +1,7 @@
 ---
 permalink: /projects/
+title: Mafalda projects
 ---
-
-# Mafalda projects
 
 - [Mafalda](Mafalda): Mediasoup vertical scalability, allow to have Router
   objects that by-pass Mediasoup per-Worker limits.

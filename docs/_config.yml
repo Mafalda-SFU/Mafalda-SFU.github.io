@@ -31,6 +31,7 @@ defaults:
       type: posts
     values:
       author_profile: true
+      layout: single
       read_time: true
       show_date: true
 facebook:

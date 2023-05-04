@@ -1,4 +1,7 @@
-# Chronology
+---
+permalink: /chronology/
+title: Chronology
+---
 
 ## Stage 1: vertical scaling (March - June 2021)
 

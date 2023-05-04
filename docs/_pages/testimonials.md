@@ -1,4 +1,7 @@
-# Testimonials
+---
+permalink: /testimonials/
+title: Testimonials
+---
 
 ## August 2021
 

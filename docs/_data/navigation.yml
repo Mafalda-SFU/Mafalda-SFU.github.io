@@ -1,4 +1,7 @@
 main:
+  - description: What's Mafalda SFU?
+    title: About
+    url: /about/
   - children:
     - title: Remote Mediasoup client
       url: /Remote-Mediasoup-client/

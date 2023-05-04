@@ -9,17 +9,17 @@ author:
     Passionate computers engineer and ex-PhD. candidate in Computers
     Engineering. Proud advocate of Open Source, standards, specifications, and
     best practices.
-  location: "Madrid, Spain / Abu Dhabi, UAE"
+  location: Madrid, Spain / Abu Dhabi, UAE
   links:
-    - label: "Personal web page"
+    - label: Personal web page
       icon: "fas fa-fw fa-link"
-      url: "https://piranna.github.io"
-    - label: "GitHub"
+      url: https://piranna.github.io
+    - label: GitHub
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/piranna"
-    - label: "Twitter"
+      url: https://github.com/piranna
+    - label: Twitter
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/el_piranna"
+      url: https://twitter.com/el_piranna
 breadcrumbs: true
 defaults:
   # _pages
@@ -46,18 +46,18 @@ facebook:
 footer:
   links:
     - label: Twitter
-      icon: "fab fa-fw fa-twitter-square"
+      icon: fab fa-fw fa-twitter-square
       url: https://twitter.com/mafalda_sfu
     - label: GitHub
-      icon: "fab fa-fw fa-github"
+      icon: fab fa-fw fa-github
       url: https://github.com/mafalda-sfu
     - label: NPM
-      icon: "fab fa-fw fa-npm"
+      icon: fab fa-fw fa-npm
       url: https://npmjs.com/org/mafalda-sfu
     - label: Legal
-      icon: "fab fa-fw fa-scale-balanced"
+      icon: fab fa-fw fa-scale-balanced
       url: /legal/
-include: ["_pages"]
+include: [_pages]
 jekyll-spaceship:
   mermaid-processor:
     mode: pre-fetch  # fetch image at building stage

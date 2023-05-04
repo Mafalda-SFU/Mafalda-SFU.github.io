@@ -3,39 +3,58 @@ excerpt: |
   Massively parallel vertical and horizontal scalable SFU (Stream Forwarding
   Unit) built on top of [Mediasoup](https://mediasoup.org/)
 feature_row:
-  - image_path: /assets/images/unsplash-gallery-image-1-th.jpg
-    alt: "placeholder image 1"
-    title: "Same API, easy to integrate"
+  - alt: Inter-connected cubes, scalability
+    image_path: /assets/images/shubham-s-web3-lY0-Y3kX5ps-unsplash.jpg
     excerpt: |
-      Scale Mediasoup applications in minutes, just replacing it with Mafalda
-  - image_path: /assets/images/unsplash-gallery-image-1-th.jpg
-    alt: "placeholder image 1"
-    title: "Easy to use and maintain"
+      Usage of Mafalda SFU is totally transparent to current Mediasoup-based
+      applications, migrate and scale yours in minutes just by replacing
+      Mediasoup with Mafalda SFU
+    title: Same API as Mediasoup, transparent to your code
+
+  - alt: Server racks, self management
+    image_path: /assets/images/taylor-vick-aWslrFhs1w4-unsplash.jpg
     excerpt: |
-      Automatically transparent abstracts and manage Mediasoup
+      Mafalda SFU automatically interconnect and manage scalability of Mediasoup
       [Workers](https://mediasoup.org/documentation/v3/mediasoup/api/#Worker)
       and
       [Routers](https://mediasoup.org/documentation/v3/mediasoup/api/#Router),
-      also even located on different servers
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Code quality first"
+      also even located on different servers or World regions. Just focus on
+      your application logic, and let Mafalda SFU take care of the rest
+    title: Fully self-managed, transparent to developers
+
+  - alt: Motherboard, performance
+    image_path: /assets/images/johannes-plenio-FZpCcPss9to-unsplash.jpg
     excerpt: |
-      Designed for performance and optimization of resources in mind, and with
-      more than 90% tests code coverage in all the sub-projects for both lines,
-      branches and statements
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--inverse"
-  - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
-    title: "Modular and combinable"
+      Fully parallel and asynchronous, and optimized to reduce resources usage
+    title: Designed for performance
+
+  - alt: Javascript source code, code quality, errors management
+    image_path: /assets/images/luca-bravo-XJXWbfSo2f0-unsplash.jpg
     excerpt: |
-      Same orthogonal API for all Mafalda modules and inspired by Mediasoup
-      design, it's easy to upgrade and combine between them if your architecture
+      More than 90% tests code coverage on almost all Mafalda SFU sub-projects
+    title: Fully tested
+
+  - alt: Analog synthesizer, modularity
+    image_path: /assets/images/ryunosuke-kikuno-aVOACNd1cc0-unsplash.jpg
+    excerpt: |
+      Same orthogonal API for all Mafalda modules inspired by Mediasoup design,
+      making it easy to upgrade and combine between them if your architecture
       changes
+    title: Modular and combinable
+
+  - alt: Stacks of Euro cents coins, adjusted expenses
+    btn_class: btn--primary
+    btn_label: Contact us
+    image_path: /assets/images/rifath-photoripey-OApHds2yEGQ-unsplash.jpg
+    excerpt: |
+      Mafalda SFU modular and interconnectable design allows to adapt it to your
+      needs, and to provide you a price adapted to your particular use case
+    title: Prices adapted to your needs
+    url: /contact/
+
 header:
   actions:
-    - label: Contact
+    - label: Contact us
       url: /contact/
   overlay_color: "#f9b248"
 intro:

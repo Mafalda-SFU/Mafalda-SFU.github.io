@@ -46,7 +46,7 @@ footer:
       url: https://github.com/mafalda-sfu
     - label: NPM
       icon: "fab fa-fw fa-npm"
-      url: https://npmjs.org/mafalda-sfu
+      url: https://npmjs.com/org/mafalda-sfu
 include: ["_pages"]
 jekyll-spaceship:
   mermaid-processor:

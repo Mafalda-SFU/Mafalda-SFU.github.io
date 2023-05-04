@@ -1,3 +1,7 @@
+analytics:
+  provider: google-gtag
+  google:
+    tracking_id: G-4GWDNRQLN1
 author:
   name: Jesús Leganés-Combarro ‘piranna’
   avatar: https://avatars0.githubusercontent.com/u/532414

@@ -38,6 +38,9 @@ defaults:
       layout: single
       read_time: true
       show_date: true
+description: |
+  Massively parallel vertical and horizontal scalable SFU (Stream Forwarding
+  Unit) built on top of Mediasoup
 facebook:
   publisher: 100089773552926
 footer:
@@ -68,6 +71,7 @@ minimal_mistakes_skin: sunrise
 name: Jesús Leganés-Combarro 'piranna'
 og_image: *logo
 plugins:
+  - jekyll-feed
   - jekyll-include-cache
   - jekyll-spaceship
 remote_theme: mmistakes/minimal-mistakes@4.24.0

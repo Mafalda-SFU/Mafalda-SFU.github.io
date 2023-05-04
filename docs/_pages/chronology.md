@@ -11,16 +11,16 @@ title: Chronology
 
 ### April 2021
 
-- Develop [Mafalda](Mafalda) module (vertical scaling core)
+- Develop [Mafalda](/Mafalda) module (vertical scaling core)
 
 ### May 2021
 
-- [Mafalda](Mafalda) module (vertical scaling core) is feature complete,
+- [Mafalda](/Mafalda) module (vertical scaling core) is feature complete,
   matching all [Mediasoup](https://mediasoup.org/) functionality
 
 ### June 2021
 
-- [Mafalda](Mafalda) module (vertical scaling core) has 100% tests coverage for
+- [Mafalda](/Mafalda) module (vertical scaling core) has 100% tests coverage for
   both lines, statements, functions and branches
 
 ## Stage 2: remote control (July - October 2021)
@@ -28,19 +28,19 @@ title: Chronology
 ### July 2021
 
 - Design of horizontal scaling architecture and remote control protocol
-- Started development of [Remote Mediasoup](Remote-Mediasoup-client) and
-  [Remote Mafalda](Remote-Mafalda-client) clients
+- Started development of [Remote Mediasoup](/Remote-Mediasoup-client) and
+  [Remote Mafalda](/Remote-Mafalda-client) clients
 - Unified APIs of local libraries and remote clients (both pass the same API
   acceptance tests)
 - Ensure no more Workers than CPUs are being used, also from different processes
-  (using [FsSet](FsSet) module internally)
-- Started development of [Remote Mafalda](Remote-Mafalda-server) and
-  [Remote Mediasoup](Remote-Mediasoup-server) servers
+  (using [FsSet](/FsSet) module internally)
+- Started development of [Remote Mafalda](/Remote-Mafalda-server) and
+  [Remote Mediasoup](/Remote-Mediasoup-server) servers
 
 ### August 2021
 
-- Develop [Remote Mediasoup](Remote-Mediasoup-server) and
-  [Remote Mafalda](Remote-Mafalda-server) servers
+- Develop [Remote Mediasoup](/Remote-Mediasoup-server) and
+  [Remote Mafalda](/Remote-Mafalda-server) servers
 - Design P2P decentralized federation protocol for horizontal scalability
 - First corporate client of vertical scaling
   ([Deepgrid Datacentre](https://deepgrid.in/))
@@ -65,12 +65,12 @@ title: Chronology
 
 ### December 2021
 
-- Implemented [Mediasoup horizontal](Mediasoup-horizontal) scalability, with
+- Implemented [Mediasoup horizontal](/Mediasoup-horizontal) scalability, with
   100% tests coverage
 
 ### January 2022
 
-- Implemented [Mediasoup cluster](Mediasoup-cluster), with 100% tests coverage
+- Implemented [Mediasoup cluster](/Mediasoup-cluster), with 100% tests coverage
 - Improve reliability of remote control
 - 100% tests coverage for all remote control modules
 
@@ -83,14 +83,14 @@ Development was temporaly paused due to profesional responsabilities.
 ### April 2022
 
 - Develop transparent reconnections support for
-  [Remote Mediasoup client](Remote-Mediasoup-client)
+  [Remote Mediasoup client](/Remote-Mediasoup-client)
 
 ### May 2022
 
 - Fully implement transparent reconnections support for
-  [Remote Mediasoup client](Remote-Mediasoup-client)
+  [Remote Mediasoup client](/Remote-Mediasoup-client)
 - Port [EduMeet](https://github.com/edumeet/edumeet) to `Remote Mediasoup` in
-  [just 25 lines of code]()
+  [just 40 lines of code](https://github.com/Mafalda-SFU/EduMeet-Mafalda/compare/03d78e9dfcf19106a69278c1506c3618730bf734...303be91a6739698b5ba9bb0e49c6f040a20ca92c)
 
 ### June 2022
 
@@ -137,7 +137,7 @@ Development was temporaly paused due to profesional responsabilities.
 ### May 2023
 
 - Update web page and documentation
-- Split out [AppDataManager](AppDataManager) from `Remote Mediasoup` server and
+- Split out [AppDataManager](/AppDataManager) from `Remote Mediasoup` server and
   client into a new module
 
 ## Roadmap

@@ -55,7 +55,7 @@ footer:
       icon: fab fa-fw fa-npm
       url: https://npmjs.com/org/mafalda-sfu
     - label: Legal
-      icon: fab fa-fw fa-balance-scale
+      icon: fas fa-fw fa-balance-scale
       url: /legal/
 include: [_pages]
 jekyll-spaceship:

@@ -1,6 +1,6 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "Mafalda SFU",
+    "short_name": "Mafalda SFU",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -13,6 +13,6 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#ffffff",
-    "background_color": "#ffffff"
+    "theme_color": "#ff7518",
+    "background_color": "#ff7518"
 }

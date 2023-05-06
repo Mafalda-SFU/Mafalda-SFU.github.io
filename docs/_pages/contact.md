@@ -3,8 +3,9 @@ permalink: /contact/
 title: Contact
 ---
 
-For any Mafalda SFU question, inquiry, or sales information please contact us by
-[email](mailto:info@mafalda.io), or fill the following form:
+For any Mafalda SFU related questions, inquiries, pricing, or sales information
+please contact us by [email](mailto:info@mafalda.io), or fill the following
+form:
 
 <form id="my-form" action="https://formspree.io/f/xqkonqqq" method="POST">
   <label>Email:</label>

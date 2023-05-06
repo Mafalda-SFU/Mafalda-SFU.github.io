@@ -4,7 +4,7 @@ title: About
 ---
 
 Mafalda SFU is a suite of Node.js packages that allows to create and manage
-WebRTC audio and video conference rooms with throusands of participants over
+WebRTC audio and video conference rooms with thousands of participants over
 multiple servers, in a fully automated way.
 
 Built on top of [Mediasoup](https://mediasoup.org/), one of the most performant

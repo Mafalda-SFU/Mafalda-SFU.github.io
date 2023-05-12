@@ -30,8 +30,7 @@ Constructor of the client.
 
 Property showing the actual state of the connection, possible values are
 `CONNECTING`, `OPEN`, `CLOSSING`, `CLOSED` and `CONNECTED`. `CONNECTED` state is
-only reached when after receiving initial payload from server with its actual
-state.
+reached after receiving initial payload from server with its current state.
 
 ### close()
 

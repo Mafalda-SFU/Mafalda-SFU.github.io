@@ -1,6 +1,6 @@
 ---
 excerpt: |
-  Massively parallel vertical and horizontal scalable SFU (Stream Forwarding
+  Massively parallel vertical and horizontal scalable SFU (Selective Forwarding
   Unit) built on top of [Mediasoup](https://mediasoup.org/)
 feature_row:
   - alt: Inter-connected cubes, scalability

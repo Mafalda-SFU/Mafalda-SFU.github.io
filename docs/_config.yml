@@ -39,7 +39,7 @@ defaults:
       read_time: true
       show_date: true
 description: |
-  Massively parallel vertical and horizontal scalable SFU (Stream Forwarding
+  Massively parallel vertical and horizontal scalable SFU (Selective Forwarding
   Unit) built on top of Mediasoup
 facebook:
   publisher: 100089773552926

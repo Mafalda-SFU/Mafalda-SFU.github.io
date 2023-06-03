@@ -137,6 +137,11 @@ Development was temporaly paused due to profesional responsabilities.
 ### May 2023
 
 - Update web page and documentation
+- Improve stability of CI servers and standalone packages
+- Implement packages licenses system
+
+### June 2023
+
 - Split out [AppDataManager](/AppDataManager) from `Remote Mediasoup` server and
   client into a new module
 
@@ -147,18 +152,18 @@ difficulties, development speed, or due to having other personal or professional
 priorities. If you are interested on any of the future roadmap topics, contact
 us to discuss a sponsorship or commercial services.
 
-### Stage 5: P2P decentralized horizontal scaling (May 2023 - August 2023)
+### Stage 5: P2P decentralized horizontal scaling (August 2023 - November 2023)
 
 Use of a Distributed Hash Table to register the Mafalda instances and send
 requests directly between them, without a central controller. Also use it to
 search for original `Producer`s of a stream and ask for them to connect.
 
-### Stage 6: network monitorization (September 2023 - December 2023)
+### Stage 6: network monitorization (December 2023 - March 2024)
 
 Tool to monitor in real time the usage and capacity of all servers and clients
 in the network: CPU usage of `Worker`s, number of `Router`s and `Transport`s...
 
-### Stage 7: Mafalda as a Service (January - June 2024)
+### Stage 7: Mafalda as a Service (April - September 2024)
 
 Notify about actual servers usage so it's possible to spin-up more instances on
 demand, as a previous step to start offering Mafalda an Remote Mediasoup

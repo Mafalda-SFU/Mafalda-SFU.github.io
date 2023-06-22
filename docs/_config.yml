@@ -1,3 +1,6 @@
+after_footer_scripts:
+  - https://formspree.io/js/formbutton-v1.min.js
+  - /assets/js/formbutton.js
 analytics:
   provider: google-gtag
   google:

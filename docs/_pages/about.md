@@ -53,8 +53,16 @@ sectors, like:
 - Multi-source 3D audio applications
 - Online real-time education platforms
 
+## FAQ
+
+Name of the project has been taken as a tribute to
+[Mafalda](https://en.wikipedia.org/wiki/Mafalda), the character created by
+Joaquín Salvador Lavado Tejón '[Quino](https://www.quino.com.ar/homequino)',
+that has a love-hate relationship with both *mass media* and soup ;-)
+
 ## Related pages
 
+- [Slides](/slides/)
 - [Demos](/demos/)
 - [Chronology](/chronology/)
 - [Testimonials](/testimonials/)

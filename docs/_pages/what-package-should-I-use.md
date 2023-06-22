@@ -78,7 +78,7 @@ graph RL
 Alternatively, you can also use [Mediasoup-horizontal](/Mediasoup-horizontal),
 that will already prepare your application to scale to multiple servers without
 changes, or use the same Remote Mediasoup client instance to connect instead to
-a [Mediasoup-cluster](/Mediasoup-cluster) server.
+a [Mediasoup-cluster CLI](/Mediasoup-cluster-CLI) server.
 
 ## I'm using Mafalda, and want to move out media server to improve performance
 
@@ -159,12 +159,12 @@ graph RL
 If you need your Mediasoup-based app to being able to manage multiple media
 servers, your solutions are to use [Mediasoup-horizontal](/Mediasoup-horizontal)
 if you want your app process to control them directly, or use
-[Mediasoup-cluster](/Mediasoup-cluster) if you want to move the management of
-the multiple media servers from your actual app server. Both of them will allows
-you to control multiple Mediasoup instances as a single one (only difference is
-where's the management is efectively being done), and to have both remote
-Workers and Routers all over them in a transparent way, as if running a single
-machine with lots of CPU cores.
+[Mediasoup-cluster CLI](/Mediasoup-cluster-CLI) if you want to move the
+management of the multiple media servers from your actual app server. Both of
+them will allows you to control multiple Mediasoup instances as a single one
+(only difference is where's the management is efectively being done), and to
+have both remote Workers and Routers all over them in a transparent way, as if
+running a single machine with lots of CPU cores.
 
 ```mermaid
 graph RL

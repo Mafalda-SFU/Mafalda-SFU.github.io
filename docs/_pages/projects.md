@@ -10,54 +10,48 @@ next diagram shows all the possible combinations:
 ```mermaid
 graph TD
   mediasoup(Mediasoup)
+  mediasoupCluster(Mediasoup Cluster)
   mediasoupHorizontal(Mediasoup Horizontal)
+  mediasoupVertical(Mediasoup Vertical)
   remoteMediasoupClient(Remote Mediasoup client)
   remoteMediasoupServer(Remote Mediasoup server)
 
-  mafalda(Mafalda)
-  remoteMafaldaClient(Remote Mafalda client)
-  remoteMafaldaServer(Remote Mafalda server)
+  mediasoupCluster -.-> mediasoupCluster
+  mediasoupCluster -.-> remoteMediasoupServer
 
-  remoteMediasoupClient -.-> remoteMediasoupServer
-
-  remoteMediasoupServer ==> mediasoup
-  remoteMediasoupServer ==> mediasoupHorizontal
-  remoteMediasoupServer --> remoteMediasoupClient
-
-  mediasoupHorizontal ==> mediasoup
-  mediasoupHorizontal --> mediasoupHorizontal
   mediasoupHorizontal ==> remoteMediasoupClient
 
-  mafalda ==> mediasoup
-  mafalda ==> mediasoupHorizontal
-  mafalda ==> remoteMediasoupClient
+  mediasoupVertical ==Mediasoup Vertical Server ==> mediasoup
+  mediasoupVertical ==Mediasoup Vertical Cluster==> mediasoupHorizontal
+  mediasoupVertical --Mediasoup Vertical Proxy  --> remoteMediasoupClient
 
-  remoteMafaldaClient -.-> remoteMafaldaServer
+  remoteMediasoupClient -.-> remoteMediasoupServer
+  remoteMediasoupClient -.-> mediasoupCluster
 
-  remoteMafaldaServer ==> mediasoupHorizontal
-  remoteMafaldaServer ==> remoteMediasoupClient
-  %% remoteMafaldaServer ==> remoteMediasoupServer
-  remoteMafaldaServer ==> mediasoup
+  remoteMediasoupServer ==Mediasoup Server ==> mediasoup
+  remoteMediasoupServer ==Mediasoup Cluster==> mediasoupHorizontal
+  remoteMediasoupServer                    ==> mediasoupVertical
+  remoteMediasoupServer --Mediasoup Proxy  --> remoteMediasoupClient
 
   classDef mafaldaApi         fill:#ED872D,stroke:#333
   classDef mediasoupAPI       fill:#1eb6e8,stroke:#333,font-family:PoiretOne
   classDef remoteMediasoupAPI fill:#9f6,stroke:#333
 
-  class mediasoup,mediasoupHorizontal,remoteMediasoupClient mediasoupAPI
-  class mafalda,remoteMafaldaClient mafaldaApi
-  class remoteMafaldaServer,remoteMediasoupServer remoteMediasoupAPI
+  class mediasoup,remoteMediasoupClient mediasoupAPI
+  class mediasoupHorizontal,mediasoupVertical mafaldaApi
+  class mediasoupCluster,remoteMediasoupServer remoteMediasoupAPI
 
   click mediasoup "https://mediasoup.org/"
+  click mediasoupCluster "/Mediasoup-cluster"
   click mediasoupHorizontal "/Mediasoup-horizontal"
+  click mediasoupVertical "/Mediasoup-vertical"
   click remoteMediasoupClient "/Remote-Mediasoup-client"
   click remoteMediasoupServer "/Remote-Mediasoup-server"
-  click mafalda "/Mafalda"
-  click remoteMafaldaClient "/Remote-Mafalda-client"
-  click remoteMafaldaServer "/Remote-Mafalda-server"
 ```
 
-Thick lines represent main connections, thin lines are compatible ones but their
-usage is not recommended. Dotted lines are client-server network connections.
+Thick lines represent main usage relationships, thin lines are compatible ones
+but their usage is not promoted. Dotted lines are client-server network
+connections.
 
 ## Main projects
 
@@ -67,7 +61,7 @@ usage is not recommended. Dotted lines are client-server network connections.
   [Remote Mediasoup client](/Remote-Mediasoup-client): remote control of
   Mediasoup instances, both of them build on top of [ROPE server](/ROPE-server)
   & [ROPE client](/ROPE-client).
-- [Mediasoup-cluster](/Mediasoup-cluster): standalone server using
+- [Mediasoup-cluster CLI](/Mediasoup-cluster-CLI): standalone server using
   [Mediasoup-horizontal](/Mediasoup-horizontal) to control multiple Remote
   Mediasoup servers from a single endpoint.
 

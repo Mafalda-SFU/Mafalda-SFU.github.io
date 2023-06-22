@@ -9,10 +9,10 @@ form:
 
 <form id="my-form" action="https://formspree.io/f/xqkonqqq" method="POST">
   <label>Email:</label>
-  <input type="email" name="email" />
+  <input type="email" name="email" placeholder="email@example.com" />
 
   <label>Message:</label>
-  <textarea name="message" />
+  <textarea name="message"></textarea>
 
   <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
 

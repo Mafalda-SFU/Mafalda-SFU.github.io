@@ -55,6 +55,7 @@ feature_row:
 header:
   actions:
     - label: Contact us
+      primary: true
       url: /contact/
   overlay_color: "#f9b248"
 intro:

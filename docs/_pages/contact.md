@@ -16,7 +16,7 @@ form:
 
   <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
 
-  <button id="my-form-button">Submit</button>
+  <button class="btn btn--primary" id="my-form-button">Submit</button>
 
   <p id="my-form-status"></p>
 </form>

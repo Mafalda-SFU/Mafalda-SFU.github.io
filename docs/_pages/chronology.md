@@ -142,8 +142,9 @@ Development was temporaly paused due to profesional responsabilities.
 
 ### June 2023
 
-- Split out [AppDataManager](/AppDataManager) from `Remote Mediasoup` server and
-  client into a new module
+- Improve documentation
+- Improve clients-servers connections security
+- Reduce size of standalone servers
 
 ## Roadmap
 

@@ -9,44 +9,72 @@ next diagram shows all the possible combinations:
 
 ```mermaid
 graph TD
-  mediasoup(Mediasoup)
-  mediasoupCluster(Mediasoup Cluster)
-  mediasoupHorizontal(Mediasoup Horizontal)
-  mediasoupVertical(Mediasoup Vertical)
+  mediasoup((Mediasoup))
+  mediasoupCluster[/Mediasoup cluster\]
+  mediasoupClusterCLI([Mediasoup cluster CLI])
+  mediasoupProxy[Mediasoup proxy]
+  mediasoupProxyCLI([Mediasoup proxy CLI])
+  mediasoupHorizontal[/Mediasoup horizontal\]
+  mediasoupVertical[[Mediasoup vertical]]
   remoteMediasoupClient(Remote Mediasoup client)
-  remoteMediasoupServer(Remote Mediasoup server)
+  remoteMediasoupClientMock([Remote Mediasoup client mock])
+  remoteMediasoupServer[\Remote Mediasoup server/]
+  remoteMediasoupServerCLI([Remote Mediasoup server CLI])
 
-  mediasoupCluster -.-> mediasoupCluster
+
+  mediasoupCluster <-.-> mediasoupProxy
+
+  %% mediasoupCluster -.-> mediasoupCluster
   mediasoupCluster -.-> remoteMediasoupServer
+
+  %% mediasoupProxy -.-> mediasoupProxy
+  mediasoupProxy -.-> remoteMediasoupServer
+
+  mediasoupClusterCLI ==> mediasoupCluster
+
+  mediasoupProxyCLI ===> mediasoupProxy
 
   mediasoupHorizontal ==> remoteMediasoupClient
 
-  mediasoupVertical ==Mediasoup Vertical Server ==> mediasoup
-  mediasoupVertical ==Mediasoup Vertical Cluster==> mediasoupHorizontal
-  mediasoupVertical --Mediasoup Vertical Proxy  --> remoteMediasoupClient
+  mediasoupVertical ==Mediasoup vertical cluster==>  mediasoupHorizontal
+  mediasoupVertical ==Mediasoup vertical server ===> mediasoup
+  mediasoupVertical --Mediasoup vertical proxy  -->  remoteMediasoupClient
 
-  remoteMediasoupClient -.-> remoteMediasoupServer
   remoteMediasoupClient -.-> mediasoupCluster
+  remoteMediasoupClient -.-> mediasoupProxy
+  remoteMediasoupClient -.-> remoteMediasoupServer
 
-  remoteMediasoupServer ==Mediasoup Server ==> mediasoup
-  remoteMediasoupServer ==Mediasoup Cluster==> mediasoupHorizontal
-  remoteMediasoupServer                    ==> mediasoupVertical
-  remoteMediasoupServer --Mediasoup Proxy  --> remoteMediasoupClient
+  remoteMediasoupClientMock ----> mediasoup
+
+  remoteMediasoupServer ==> mediasoup
+  remoteMediasoupServer ==> mediasoupHorizontal
+  remoteMediasoupServer ==> mediasoupVertical
+  remoteMediasoupServer --> remoteMediasoupClient
+
+  remoteMediasoupServerCLI ====> remoteMediasoupServer
+
 
   classDef mafaldaApi         fill:#ED872D,stroke:#333
   classDef mediasoupAPI       fill:#1eb6e8,stroke:#333,font-family:PoiretOne
   classDef remoteMediasoupAPI fill:#9f6,stroke:#333
 
-  class mediasoup,remoteMediasoupClient mediasoupAPI
+  class mediasoup,remoteMediasoupClient,remoteMediasoupClientMock mediasoupAPI
   class mediasoupHorizontal,mediasoupVertical mafaldaApi
-  class mediasoupCluster,remoteMediasoupServer remoteMediasoupAPI
+  class mediasoupCluster,mediasoupClusterCLI remoteMediasoupAPI
+  class mediasoupProxy,mediasoupProxyCLI remoteMediasoupAPI
+  class remoteMediasoupServer,remoteMediasoupServerCLI remoteMediasoupAPI
 
   click mediasoup "https://mediasoup.org/"
   click mediasoupCluster "/Mediasoup-cluster"
+  click mediasoupClusterCLI "/Mediasoup-cluster-CLI"
+  click mediasoupProxy "/Mediasoup-proxy"
+  click mediasoupProxyCLI "/Mediasoup-proxy-CLI"
   click mediasoupHorizontal "/Mediasoup-horizontal"
   click mediasoupVertical "/Mediasoup-vertical"
   click remoteMediasoupClient "/Remote-Mediasoup-client"
+  click remoteMediasoupClientMock "/Remote-Mediasoup-client-mock"
   click remoteMediasoupServer "/Remote-Mediasoup-server"
+  click remoteMediasoupServerCLI "/Remote-Mediasoup-server-CLI"
 ```
 
 Thick lines represent main usage relationships, thin lines are compatible ones

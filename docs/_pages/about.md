@@ -53,6 +53,25 @@ sectors, like:
 - Multi-source 3D audio applications
 - Online real-time education platforms
 
+## A [Jesús Leganés-Combarro](https://piranna.github.io) project
+
+Being one of the Spain first WebRTC experts and pioneers since 2012 with
+[ShareIt!](https://piranna.github.io/projects/#shareit), the World's first
+in-browser P2P file sharing application, and
+[DataChannel-polyfill](https://github.com/ShareIt-project/DataChannel-polyfill),
+the first working implementation of WebRTC DataChannel specification,
+[Jesús Leganés-Combarro](https://piranna.github.io) has been working developing
+real-time and high performant applications for the last 15 years for companies
+like [Kurento](https://doc-kurento.readthedocs.io/en/latest/) (now part of
+[Twilio](https://www.twilio.com)), [Telefónica](https://www.telefonica.com),
+[Atos](https://atos.net), or [IE University](https://www.ie.edu). He has also
+worked hand-to-hand with other world-renowned WebRTC experts like
+[Iñaki Baz Castillo](https://inakibaz.me/) (creator of
+[Mediasoup](https://mediasoup.org/) itself),
+[Sergio Garcia Murillo](https://www.linkedin.com/in/sergiogarciamurillo/),
+[Professor Luis Lopez Fernandez](https://gestion2.urjc.es/pdi/ver/luis.lopez),
+or [Tsahi Levent-Levi](https://bloggeek.me), among others.
+
 ## FAQ
 
 Name of the project has been taken as a tribute to

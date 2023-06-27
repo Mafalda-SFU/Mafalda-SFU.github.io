@@ -51,7 +51,25 @@ feature_row:
       needs, and to provide you a price adapted to your particular use case
     title: Prices adapted to your needs
     url: /contact/
-
+gallery:
+  - url: https://dyte.io/
+    image_path: /assets/images/dyte.svg
+    alt: Dyte
+  - url: https://framevr.io/
+    image_path: /assets/images/framevr.png
+    alt: FrameVR
+  - url: https://www.fermax.com/
+    image_path: /assets/images/fermax.svg
+    alt: Fermax
+  - url: https://www.soundstage.fm/
+    image_path: /assets/images/soundstage.svg
+    alt: SoundStage.fm
+  - url: https://www.dripshop.live/
+    image_path: /assets/images/drip.svg
+    alt: Drip
+  - url: https://www.engageli.com/
+    image_path: /assets/images/engageli.svg
+    alt: Engageli
 header:
   actions:
     - label: Contact us
@@ -71,3 +89,7 @@ title: Mafalda SFU
 
 {% include feature_row id="intro" type="center" %}
 {% include feature_row %}
+
+## Team trusted by
+
+{% include gallery id="gallery" caption="Team trusted by" %}

@@ -58,7 +58,7 @@ sectors, like:
 Name of the project has been taken as a tribute to
 [Mafalda](https://en.wikipedia.org/wiki/Mafalda), the character created by
 Joaquín Salvador Lavado Tejón '[Quino](https://www.quino.com.ar/homequino)',
-that has a love-hate relationship with both *mass media* and soup ;-)
+that has a love-hate relationship with both *mass media* and soup 😉
 
 ## Related pages
 

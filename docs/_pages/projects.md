@@ -32,7 +32,7 @@ graph TD
 
   mediasoupClusterCLI ==> mediasoupCluster
 
-  mediasoupProxyCLI ===> mediasoupProxy
+  mediasoupProxyCLI ==> mediasoupProxy
 
   mediasoupHorizontal ==> remoteMediasoupClient
 

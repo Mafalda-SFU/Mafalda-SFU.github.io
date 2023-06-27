@@ -59,10 +59,10 @@ gallery:
     image_path: /assets/images/framevr.png
     alt: FrameVR
   - url: https://www.fermax.com/
-    image_path: /assets/images/fermax.svg
+    image_path: /assets/images/fermax.jpg
     alt: Fermax
   - url: https://www.soundstage.fm/
-    image_path: /assets/images/soundstage.svg
+    image_path: /assets/images/soundstage.png
     alt: SoundStage.fm
   - url: https://www.dripshop.live/
     image_path: /assets/images/drip.svg
@@ -92,4 +92,4 @@ title: Mafalda SFU
 
 ## Team trusted by
 
-{% include gallery id="gallery" caption="Team trusted by" %}
+{% include gallery id="gallery" %}

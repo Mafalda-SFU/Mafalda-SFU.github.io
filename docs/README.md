@@ -92,4 +92,10 @@ title: Mafalda SFU
 
 ## Team trusted by
 
-{% include gallery id="gallery" %}
+<style type="text/css">
+  .align-items-center {
+    align-items: center;
+  }
+</style>
+
+{% include gallery class="align-items-center" id="gallery" %}

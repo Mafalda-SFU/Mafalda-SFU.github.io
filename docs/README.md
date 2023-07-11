@@ -2,17 +2,18 @@
 excerpt: |
   Massively parallel vertical and horizontal scalable SFU (Stream Forwarding
   Unit) built on top of [Mediasoup](https://mediasoup.org/)
-feature_row:
-  - alt: Inter-connected cubes, scalability
-    image_path: /assets/images/shubham-s-web3-lY0-Y3kX5ps-unsplash.jpg
-    excerpt: |
-      Usage of Mafalda SFU is totally transparent to current Mediasoup-based
-      applications, migrate and scale yours in minutes just by replacing
-      Mediasoup with Mafalda SFU
-    title: Same API as Mediasoup, transparent to your code
 
-  - alt: Server racks, self management
-    image_path: /assets/images/taylor-vick-aWslrFhs1w4-unsplash.jpg
+feature_row1:
+  - alt: Software development, code
+    image_path: /assets/images/cocomaterial/device_desktop_working_code.svg
+    excerpt: |
+      There's no need to learn something new, usage of Mafalda SFU is
+      transparent for already developed Mediasoup-based applications. You can
+      migrate and scale your application in minutes, instead of months
+    title: Same API of Mediasoup
+feature_row2:
+  - alt: Network, self management
+    image_path: /assets/images/cocomaterial/system_group_web_connection_link_association.svg
     excerpt: |
       Mafalda SFU automatically interconnect and manage scalability of Mediasoup
       [Workers](https://mediasoup.org/documentation/v3/mediasoup/api/#Worker)
@@ -21,36 +22,43 @@ feature_row:
       also even located on different servers or World regions. Just focus on
       your application logic, and let Mafalda SFU take care of the rest
     title: Fully self-managed, transparent to developers
-
+feature_row3:
   - alt: Motherboard, performance
-    image_path: /assets/images/johannes-plenio-FZpCcPss9to-unsplash.jpg
+    image_path: /assets/images/cocomaterial/electronic_4.svg
     excerpt: |
-      Fully parallel and asynchronous, and optimized to reduce resources usage
+      Fully parallel and asynchronous, it's designed to reduce the usage of each
+      server resources, and optimize the needed instances to the minimum
     title: Designed for performance
-
-  - alt: Javascript source code, code quality, errors management
-    image_path: /assets/images/luca-bravo-XJXWbfSo2f0-unsplash.jpg
+feature_row4:
+  - alt: Source code bugs, code quality, errors management
+    image_path: /assets/images/cocomaterial/code_bugs_software.svg
     excerpt: |
-      More than 90% tests code coverage on almost all Mafalda SFU sub-projects
-    title: Fully tested
-
-  - alt: Analog synthesizer, modularity
-    image_path: /assets/images/ryunosuke-kikuno-aVOACNd1cc0-unsplash.jpg
+      Implemented to be robust and resilient, Mafalda SFU projects follows
+      strict code quality standards and security measurements for all Mafalda
+      SFU projects, with more than 90% code coverage in almost all of them,
+      reduced attack surface, using encrypted communications, and having an
+      exhaustive errors management
+    title: Security oriented
+feature_row5:
+  - alt: Ham radio, modularity
+    image_path: /assets/images/cocomaterial/modular.svg
     excerpt: |
       Same orthogonal API for all Mafalda modules inspired by Mediasoup design,
-      making it easy to upgrade and combine between them if your architecture
-      changes
+      makes it easy to upgrade and combine between them in multiple ways,
+      allowing them to easily evolve if your architecture or needs changes
     title: Modular and combinable
-
-  - alt: Stacks of Euro cents coins, adjusted expenses
+feature_row6:
+  - alt: Investment, adjusted expenses
     btn_class: btn--primary
     btn_label: Contact us
-    image_path: /assets/images/rifath-photoripey-OApHds2yEGQ-unsplash.jpg
+    image_path: /assets/images/cocomaterial/investment.svg
     excerpt: |
-      Mafalda SFU modular and interconnectable design allows to adapt it to your
-      needs, and to provide you a price adapted to your particular use case
+      Mafalda SFU modular and interconnectable design allows to adapt itself to
+      your needs and budged and provide you a price adjusted to your specific
+      use case, and being able to evolve with your future requirements
     title: Prices adapted to your needs
     url: /contact/
+
 gallery:
   - url: https://dyte.io/
     image_path: /assets/images/logos/dyte.svg
@@ -88,7 +96,13 @@ title: Mafalda SFU
 ---
 
 {% include feature_row id="intro" type="center" %}
-{% include feature_row %}
+
+{% include feature_row id="feature_row1" type="right" %}
+{% include feature_row id="feature_row2" type="left" %}
+{% include feature_row id="feature_row3" type="right" %}
+{% include feature_row id="feature_row4" type="left" %}
+{% include feature_row id="feature_row5" type="right" %}
+{% include feature_row id="feature_row6" type="left" %}
 
 ## Team trusted by
 

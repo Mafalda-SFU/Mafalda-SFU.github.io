@@ -66,7 +66,7 @@ jekyll-spaceship:
     mode: pre-fetch  # fetch image at building stage
     syntax:
       code: mermaid
-logo: &logo /assets/images/logo.png
+logo: &logo /assets/images/logo.svg
 lunr:
   search_full_content: true
   search_within_pages: true

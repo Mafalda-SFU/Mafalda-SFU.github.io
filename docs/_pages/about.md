@@ -32,8 +32,8 @@ Just by replacing Mediasoup with Mafalda SFU, and configure and initialize the
 library, you can scale your application to thousands of participants in a matter
 of minutes.
 
-Following development best practices, code is splitted in multiple modules with
-a common API, allowing to combine between them in the most optimal way for your
+Following development best practices, code is split in multiple modules with a
+common API, allowing to combine between them in the most optimal way for your
 particular use case, and with more than 90% tests code coverage in most of the
 modules.
 
@@ -73,6 +73,8 @@ worked hand-to-hand with other world-renowned WebRTC experts like
 or [Tsahi Levent-Levi](https://bloggeek.me), among others.
 
 ## FAQ
+
+### Where does the name come from?
 
 Name of the project has been taken as a tribute to
 [Mafalda](https://en.wikipedia.org/wiki/Mafalda), the character created by

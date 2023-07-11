@@ -83,7 +83,8 @@ header:
     - label: Contact us
       primary: true
       url: /contact/
-  overlay_color: "#f9b248"
+  overlay_image: /assets/images/logo.svg
+  overlay_filter: "#f9b2487f"
 intro:
   - excerpt: |
       Mafalda SFU allows to create and manage video room sessions with thousands

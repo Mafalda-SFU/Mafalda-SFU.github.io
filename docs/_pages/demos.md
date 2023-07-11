@@ -1,4 +1,5 @@
 ---
+classes: wide
 permalink: /demos/
 title: Demos
 ---

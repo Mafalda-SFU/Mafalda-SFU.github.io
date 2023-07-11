@@ -1,6 +1,8 @@
 ---
 permalink: /projects/
 title: Mafalda projects
+toc: true
+toc_sticky: true
 ---
 
 All Mafalda SFU packages have by design an orthogonal API, making it possible to

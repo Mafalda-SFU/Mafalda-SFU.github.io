@@ -1,6 +1,8 @@
 ---
 permalink: /what-package-should-I-use/
 title: What package should I use?
+toc: true
+toc_sticky: true
 ---
 
 ![shopping]({{ site.url }}{{ site.baseurl }}/assets/images/cocomaterial/shopping_.svg){: .align-center}

@@ -1,6 +1,8 @@
 ---
 permalink: /about/
 title: About
+toc: true
+toc_sticky: true
 ---
 
 Mafalda SFU is a suite of Node.js packages that allows to create and manage

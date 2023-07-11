@@ -1,6 +1,8 @@
 ---
 permalink: /chronology/
 title: Chronology
+toc: true
+toc_sticky: true
 ---
 
 ## Stage 1: vertical scaling (March - June 2021)

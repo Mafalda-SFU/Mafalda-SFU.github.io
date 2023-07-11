@@ -76,7 +76,7 @@ or [Tsahi Levent-Levi](https://bloggeek.me), among others.
 
 ## FAQ
 
-![thinking]({{ site.url }}{{ site.baseurl }}/assets/images/cocomaterial/thinking_man.svg){: .align-right}
+![thinking]({{ site.url }}{{ site.baseurl }}/assets/images/cocomaterial/thinking_man.svg){: .align-right width="40.6779661017%" }
 
 ### Where does the name come from?
 

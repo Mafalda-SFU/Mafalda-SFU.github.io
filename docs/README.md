@@ -53,22 +53,22 @@ feature_row:
     url: /contact/
 gallery:
   - url: https://dyte.io/
-    image_path: /assets/images/dyte.svg
+    image_path: /assets/images/logos/dyte.svg
     alt: Dyte
   - url: https://framevr.io/
-    image_path: /assets/images/framevr.png
+    image_path: /assets/images/logos/framevr.png
     alt: FrameVR
   - url: https://www.fermax.com/
-    image_path: /assets/images/fermax.jpg
+    image_path: /assets/images/logos/fermax.jpg
     alt: Fermax
   - url: https://www.soundstage.fm/
-    image_path: /assets/images/soundstage.png
+    image_path: /assets/images/logos/soundstage.png
     alt: SoundStage.fm
   - url: https://www.dripshop.live/
-    image_path: /assets/images/drip.svg
+    image_path: /assets/images/logos/drip.svg
     alt: Drip
   - url: https://www.engageli.com/
-    image_path: /assets/images/engageli.svg
+    image_path: /assets/images/logos/engageli.svg
     alt: Engageli
 header:
   actions:

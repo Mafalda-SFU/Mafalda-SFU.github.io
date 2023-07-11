@@ -74,6 +74,8 @@ or [Tsahi Levent-Levi](https://bloggeek.me), among others.
 
 ## FAQ
 
+![thinking]({{ site.url }}{{ site.baseurl }}/assets/images/cocomaterial/thinking_man.svg){: .align-right}
+
 ### Where does the name come from?
 
 Name of the project has been taken as a tribute to

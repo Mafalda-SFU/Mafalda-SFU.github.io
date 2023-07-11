@@ -3,6 +3,8 @@ permalink: /contact/
 title: Contact
 ---
 
+![email]({{ site.url }}{{ site.baseurl }}/assets/images/cocomaterial/digital_analog.svg){: .align-right}
+
 For any Mafalda SFU related questions, inquiries, pricing, or sales information
 please contact us by [email](mailto:info@mafalda.io), or fill the following
 form:

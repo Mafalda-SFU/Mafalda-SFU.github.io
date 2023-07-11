@@ -3,6 +3,8 @@ permalink: /what-package-should-I-use/
 title: What package should I use?
 ---
 
+![shopping]({{ site.url }}{{ site.baseurl }}/assets/images/cocomaterial/shopping_.svg){: .align-center}
+
 Mafalda modular design allows you to use the packages that better fit for your
 use case, and easily upgrade to other ones when you need it. To help you to
 decide were to start, we've defined here some use cases:

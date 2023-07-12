@@ -8,16 +8,10 @@ function getMessage({message})
 
 function handleSubmit(event)
 {
-  function onReCaptchaReady()
-  {
-    void grecaptcha.execute(
-      '6LcHk-IlAAAAAEc91CzS-AipL6ZXT04PaObfbkxX', {action: 'submit'}
-    )
-    .then(whenReCaptchaTokenReady);
-  }
-
   function whenError(error)
   {
+    console.error(error)
+
     status.innerHTML = error
   }
 
@@ -30,33 +24,41 @@ function handleSubmit(event)
       return
     }
 
-    await response.json().then(whenJson)
+    const data = await response.json()
+
+    throw data.errors?.map(getMessage).join(", ")
+      ?? "Oops! There was a problem submitting your form: " + data
   }
 
-  async function whenReCaptchaTokenReady(token)
+  function whenFinally()
   {
-    document.getElementById("g-recaptcha-response").value = token;
-
-    const body = new FormData(target);
-
-    await fetch(action, {body, headers, method})
-    .then(whenFetch)
-    .catch(whenError);
+    button.disabled = false;
+    button.innerHTML = "Send";
+    email.disabled = false;
+    message.disabled = false;
   }
 
-
-  const status = document.getElementById("my-form-status");
-  const { target, target: {action, method} } = event;
 
   event.preventDefault();
 
-  grecaptcha.ready(onReCaptchaReady);
-}
+  const { target, target: {action, method} } = event;
+  const body = new FormData(target);
 
-function whenJson(data)
-{
-  throw data.errors?.map(getMessage).join(", ")
-    ?? "Oops! There was a problem submitting your form: " + data
+  const email = document.getElementById("email");
+  const message = document.getElementById("message");
+  const button = document.getElementById("my-form-button");
+  const status = document.getElementById("my-form-status");
+
+  button.disabled = true;
+  button.innerHTML = "Sending...";
+  email.disabled = true;
+  message.disabled = true;
+  status.innerHTML = "";
+
+  void fetch(action, {body, headers, method})
+  .then(whenFetch)
+  .catch(whenError)
+  .finally(whenFinally);
 }
 
 

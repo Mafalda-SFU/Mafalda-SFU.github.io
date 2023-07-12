@@ -10,21 +10,18 @@ For any Mafalda SFU related questions, inquiries, pricing, or sales information
 please contact us by [email](mailto:info@mafalda.io), or fill the following
 form:
 
-<form id="my-form" action="https://formspree.io/f/xqkonqqq" method="POST">
-  <label>Email:</label>
-  <input type="email" name="email" placeholder="email@example.com" />
+<form id="my-form" action="https://formspree.io/f/xqkonqqq" method="POST"
+  style="float: left; width: 100%"
+>
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" placeholder="email@example.com" />
 
-  <label>Message:</label>
-  <textarea name="message"></textarea>
+  <label for="message">Message:</label>
+  <textarea id="message" name="message"></textarea>
 
-  <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
-
-  <button class="btn btn--primary" id="my-form-button">Submit</button>
+  <button class="btn btn--primary" id="my-form-button">Send</button>
 
   <p id="my-form-status"></p>
 </form>
 
-<script
-  src="https://www.google.com/recaptcha/api.js?render=6LcHk-IlAAAAAEc91CzS-AipL6ZXT04PaObfbkxX"
-></script>
 <script src="{{ '/assets/js/contact.js' | relative_url }}"></script>

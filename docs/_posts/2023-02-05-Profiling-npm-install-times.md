@@ -3,7 +3,7 @@ lang: en
 title: Profiling `npm install` times
 ---
 
-When installing Mafalda packets, a problem I've suffered several times are
+When installing Mafalda SFU packets, a problem I've suffered several times are
 install times, specially since I'm using git dependencies. I tried to reduce
 times by [publishing](https://www.npmjs.com/org/mafalda) some of the most common
 packages to npm, so removing need to install and compile development
@@ -56,7 +56,7 @@ minutes, and the problem is probably due to use Node.js v19.4.0 instead of a LTS
 version, I would not worry too much.
 
 Another project I have been having more important problems with install time has
-been the Remote Mediasoup integration tests, where install of *all* Mafalda
+been the Remote Mediasoup integration tests, where install of *all* Mafalda SFU
 subprojects is involved, and in fact Github Actions cancel the job step after
 about 10-12 minutes (does it has a timeout, or it thinks I'm mining
 cryptocurrencies?). So checking with `gnomon`, the timings percentages seems
@@ -78,13 +78,13 @@ similar, just only we found the outliers got rampage:
 ```
 
 Total time, 1059.6964s (18 minutes), whom of them 34 seconds are spent on
-downloading Mafalda
+downloading Mafalda SFU
 [eslint-config](https://github.com/Mafalda-SFU/eslint-config) package (hum? Why
-so much?), and 15 minutes compiling both Mafalda custom Mediasoup prebuilds and
-the regular one
+so much?), and 15 minutes compiling both Mafalda SFU custom Mediasoup prebuilds
+and the regular one
 ([there are some incompatibilities starting on version 3.10.6](https://github.com/versatica/mediasoup/issues/982)
-that prevent using the latest one with Mafalda, working on fixing them at this
-moment).
+that prevent using the latest one with Mafalda SFU, working on fixing them at
+this moment).
 
 Mediasoup, *what else?*
 

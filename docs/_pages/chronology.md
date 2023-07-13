@@ -63,7 +63,7 @@ toc_sticky: true
 ### November 2021
 
 - Improved documentation
-- All Mafalda modules are composable between them
+- All Mafalda SFU modules are composable between them
 
 ### December 2021
 
@@ -115,7 +115,8 @@ Development was temporaly paused due to profesional responsabilities.
 ### January 2023
 
 - Update projects documentation and main webpage
-- Update Mafalda repositories to use new `Remote Mediasoup` and ROPE client APIs
+- Update Mafalda SFU repositories to use new `Remote Mediasoup` and ROPE client
+  APIs
 - Improve testing, linting and documentation generation in all projects, and
   automate them in CI servers
 - Start design and architecture of `Mediasoup vertical` module
@@ -124,8 +125,8 @@ Development was temporaly paused due to profesional responsabilities.
 
 ### February 2023
 
-- Work on implement vertical scaling of Mediasoup, based on code from Mafalda
-  module.
+- Work on implement vertical scaling of Mediasoup, based on code from
+  [Mafalda](/Mafalda) module.
 
 ### March 2023
 
@@ -148,6 +149,11 @@ Development was temporaly paused due to profesional responsabilities.
 - Improve clients-servers connections security
 - Reduce size of standalone servers
 
+### July 2023
+
+- QA in a Box: create a npm package with all the needed tools and unified
+  config files for all the Mafalda SFU
+
 ## Roadmap
 
 All dates are estimated and can suffer of variations depending of the found
@@ -155,19 +161,19 @@ difficulties, development speed, or due to having other personal or professional
 priorities. If you are interested on any of the future roadmap topics, contact
 us to discuss a sponsorship or commercial services.
 
-### Stage 5: P2P decentralized horizontal scaling (August 2023 - November 2023)
+### Stage 5: Mediasoup as a Service (August 2023 - November 2023)
 
-Use of a Distributed Hash Table to register the Mafalda instances and send
-requests directly between them, without a central controller. Also use it to
-search for original `Producer`s of a stream and ask for them to connect.
+Notify about actual servers usage so it's possible to spin-up more instances on
+demand, as a previous step to start offering Remote Mediasoup instances on the
+cloud.
 
 ### Stage 6: network monitorization (December 2023 - March 2024)
 
 Tool to monitor in real time the usage and capacity of all servers and clients
 in the network: CPU usage of `Worker`s, number of `Router`s and `Transport`s...
 
-### Stage 7: Mafalda as a Service (April - September 2024)
+### Stage 7: P2P decentralized horizontal scaling (April - September 2024)
 
-Notify about actual servers usage so it's possible to spin-up more instances on
-demand, as a previous step to start offering Mafalda an Remote Mediasoup
-instances on the cloud.
+Use of a Distributed Hash Table to register the Mafalda instances and send
+requests directly between them, without a central controller. Also use it to
+search for original `Producer`s of a stream and ask for them to connect.

@@ -52,7 +52,7 @@ The main features of Mafalda are:
 I've been working on Mafalda since March 2021, and so far I've fully implemented
 [vertical](https://en.wikipedia.org/wiki/Scalability#Vertical_or_scale_up)
 scaling, and got to a point where both API and code are stable and ready to
-start testing in real enviroments.
+start testing in real environments.
 
 At the same time, I'm currently working on
 [horizontal](https://en.wikipedia.org/wiki/Scalability#Horizontal_or_scale_out)

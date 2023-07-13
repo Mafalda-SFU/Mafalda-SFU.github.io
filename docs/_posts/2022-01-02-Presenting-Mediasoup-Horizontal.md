@@ -8,7 +8,7 @@ of [Mediasoup](https://mediasoup.org/) and the WebRTC stack, the main problem
 I've found companies are facing is about how to easily implement Medisoup
 [horizontal](https://en.wikipedia.org/wiki/Scalability#Horizontal_or_scale_out)
 scaling. I've been working on a solution for this problem for a while on, and
-since Mafalda is build on top of Mediasoup, it's also needed to help it to
+since Mafalda SFU is build on top of Mediasoup, it's also needed to help it to
 provide transparent vertical and horizontal scaling, so let's see how it works.
 
 `Mediasoup-Horizontal` is a manager that allows to remotely control multiple

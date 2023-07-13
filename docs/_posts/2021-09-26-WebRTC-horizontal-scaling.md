@@ -3,12 +3,12 @@ lang: en
 title: WebRTC horizontal scaling
 ---
 
-When aproaching the horizontal scaling of WebRTC servers, we have two main
-aproachs: decentralized P2P, and using a central server. Each one has its own
-drawbacks and advantages, and I had difficulties to identify what aproach was
+When approaching the horizontal scaling of WebRTC servers, we have two main
+approaches: decentralized P2P, and using a central server. Each one has its own
+drawbacks and advantages, and I had difficulties to identify what approach was
 the best, since I usually have a personal preference for pure P2P architectures,
 but they are not the most simple nor always the more efficient ones. So when
-deciding how to aproach Mafalda horizontal scaling, I needed to consider the
+deciding how to approach Mafalda horizontal scaling, I needed to consider the
 pros and cons of each use case I would need, and here we have my conclusions.
 
 ## P2P
@@ -53,7 +53,7 @@ is the one that best fit this particular use case, since it's the one that best
 balance CPU and bandwidth usage, and also allow to easily change the heuristics
 without needing to spin-down the WebRTC servers.
 
-## Update: Mafalda aproach
+## Update: Mafalda SFU aproach
 
 Based on these two traditional network architectures, I decided to apply my own
 solutions for each one of the use cases, the centralized and decentralized one.

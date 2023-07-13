@@ -2,7 +2,6 @@
 excerpt: |
   Massively parallel vertical and horizontal scalable SFU (Stream Forwarding
   Unit) built on top of [Mediasoup](https://mediasoup.org/)
-
 feature_row1:
   - alt: Software development, code
     image_path: /assets/images/cocomaterial/device_desktop_working_code.svg
@@ -43,9 +42,9 @@ feature_row5:
   - alt: Ham radio, modularity
     image_path: /assets/images/cocomaterial/modular.svg
     excerpt: |
-      Same orthogonal API for all Mafalda modules inspired by Mediasoup design,
-      makes it easy to upgrade and combine between them in multiple ways,
-      allowing them to easily evolve if your architecture or needs changes
+      Same orthogonal API for all Mafalda SFU modules inspired by Mediasoup
+      design, makes it easy to upgrade and combine between them in multiple
+      ways, allowing them to easily evolve if your architecture or needs changes
     title: Modular and combinable
 feature_row6:
   - alt: Investment, adjusted expenses
@@ -58,7 +57,6 @@ feature_row6:
       use case, and being able to evolve with your future requirements
     title: Prices adapted to your needs
     url: /contact/
-
 gallery:
   - url: https://dyte.io/
     image_path: /assets/images/logos/dyte.svg

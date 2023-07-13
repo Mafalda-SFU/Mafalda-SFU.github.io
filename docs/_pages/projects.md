@@ -1,6 +1,6 @@
 ---
 permalink: /projects/
-title: Mafalda projects
+title: Mafalda SFU projects
 toc: true
 toc_sticky: true
 ---
@@ -95,9 +95,9 @@ connections.
   [Mediasoup-horizontal](/Mediasoup-horizontal) to control multiple Remote
   Mediasoup servers from a single endpoint.
 
-- *Mafalda-swarm*: Decentralized horizontal scaling for Mafalda, allow to access
-  streams from multiple entry points without a central management, based on P2P
-  technologies and architecture. *Estimated August 2023*
+- *Mafalda-swarm*: Decentralized horizontal scaling for Mafalda SFU, allow to
+  access streams from multiple entry points without a central management, based
+  on P2P technologies and architecture. *Estimated August 2023*
 
 ## Auxiliary packages
 
@@ -112,8 +112,8 @@ connections.
   allow remote control of objects located as if they were local, including
   sync'ed updates of remote state, also when multiple clients are involved.
 
-- *Mafalda-monitor*: Mafalda network monitoring tool, allow to control stats and
-  loads of the servers in the network and their connected clients.
+- *Mafalda-monitor*: Mafalda SFU network monitoring tool, allow to control
+  stats and loads of the servers in the network and their connected clients.
   *Estimated December 2023*
 
 ## Related pages

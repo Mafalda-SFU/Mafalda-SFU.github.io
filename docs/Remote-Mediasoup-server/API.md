@@ -9,6 +9,8 @@ the other fields for the sake of completeness.</p>
 </dd>
 <dt><a href="#pipeToRouter">pipeToRouter(root0, id)</a></dt>
 <dd></dd>
+<dt><a href="#transportId2pid">transportId2pid(id)</a></dt>
+<dd></dd>
 </dl>
 
 <a name="genListenIps"></a>
@@ -60,4 +62,13 @@ the other fields for the sake of completeness.
 | Param |
 | --- |
 | transport | 
+
+<a name="transportId2pid"></a>
+
+## transportId2pid(id)
+**Kind**: global function  
+
+| Param |
+| --- |
+| id | 
 

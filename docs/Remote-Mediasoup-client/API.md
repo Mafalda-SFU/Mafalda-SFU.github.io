@@ -12,6 +12,8 @@
 ## Functions
 
 <dl>
+<dt><a href="#mapVolume">mapVolume(root0)</a></dt>
+<dd></dd>
 <dt><a href="#dump">dump()</a></dt>
 <dd><p>Dump Consumer.</p>
 </dd>
@@ -31,9 +33,24 @@
 <dd><p>Dump Transport.</p>
 </dd>
 <dt><a href="#dump">dump()</a></dt>
+<dd><p>Dump WebRtcServer.</p>
+</dd>
+<dt><a href="#dump">dump()</a></dt>
 <dd><p>Dump Worker.</p>
 </dd>
 </dl>
+
+<a name="mapVolume"></a>
+
+## mapVolume(root0)
+**Kind**: global function  
+
+| Param |
+| --- |
+| root0 | 
+| root0.producer | 
+| root0.producer.id | 
+| root0.volume | 
 
 <a name="dump"></a>
 
@@ -69,6 +86,12 @@ Dump Router.
 
 ## dump()
 Dump Transport.
+
+**Kind**: global function  
+<a name="dump"></a>
+
+## dump()
+Dump WebRtcServer.
 
 **Kind**: global function  
 <a name="dump"></a>

@@ -2,6 +2,26 @@
 
 Mafalda SFU shareable ESLint config
 
+## 🎛️ Available Configurations
+
+<https://prettier.io/docs/en/comparison.html>
+<https://eslint.org/docs/latest/extend/custom-rules#rule-structure>
+
+- `@mafalda-sfu/eslint-config`: default configuration aggregating all the
+  other configurations, acting as *recommended* one. One stop shop for all your
+  linting needs.
+  - `@mafalda-sfu/eslint-config/problems`: rules that detect possible errors in
+    your code. It should be used before running actual tests to detect and fix
+    errors as early as possible.
+  - `@mafalda-sfu/eslint-config/format`: non-critical stylistic rules that are
+    purely matters of taste and are highly unlikely to cause errors. They can
+    safely be run after tests or before a commit, or ignored if you disagree
+    with them.
+    - `@mafalda-sfu/eslint-config/suggestions`: rules to identify alternative
+      better ways of writing code.
+    - `@mafalda-sfu/eslint-config/layout`: rules that enforce a consistent code
+      style.
+
 ## 🚥 Semantic Versioning Policy
 
 `@mafalda-sfu/eslint-config` follows semantic versioning and ESLint's Semantic

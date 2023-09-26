@@ -1,1 +1,3 @@
-# Mediasoup-cluster
+# Mediasoup cluster CLI
+
+[![Coverage](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/mafalda-bot/27d772a9a3a8a945b34fd9676de40486/raw/Mediasoup-cluster-CLI.json)](https://gist.github.com/Mafalda-bot/27d772a9a3a8a945b34fd9676de40486#file-Mediasoup-cluster-CLI-json)

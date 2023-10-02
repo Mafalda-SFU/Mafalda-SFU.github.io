@@ -1,5 +1,7 @@
 # Remote Mediasoup client
 
+[![Coverage](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/mafalda-bot/27d772a9a3a8a945b34fd9676de40486/raw/Remote-Mediasoup-client.json)](https://gist.github.com/Mafalda-bot/27d772a9a3a8a945b34fd9676de40486#file-Remote-Mediasoup-client-json)
+
 This project host a class that allow to connect to servers offering the
 `Remote Mediasoup` API, like
 [Remote Mediasoup server](https://mafalda.io/Remote-Mediasoup-server/) and

@@ -22,7 +22,7 @@ Constructor of the client.
    inmediatly, if not then you'll need to provide it later when calling
    [open()](#openurl) method.
 - `WebSocket`: class used to create WebSocket objects. By default makes use of
-  [isomorphic-ws](https://github.com/heineiuo/isomorphic-ws).
+  [unws](https://github.com/sxzz/unws).
 
 `url` can also be an object with the same fields.
 

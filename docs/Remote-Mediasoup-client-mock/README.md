@@ -1,5 +1,8 @@
 # Remote Mediasoup client mock
 
+[![Coverage](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/mafalda-bot/27d772a9a3a8a945b34fd9676de40486/raw/Remote-Mediasoup-client-mock.json)](https://gist.github.com/Mafalda-bot/27d772a9a3a8a945b34fd9676de40486#file-Remote-Mediasoup-client-mock-json)
+[![npm](https://img.shields.io/npm/v/@mafalda-sfu/remote-mediasoup-client-mock.svg)](https://www.npmjs.com/package/@mafalda-sfu/remote-mediasoup-client-mock)
+
 This project host a class with the same API of the
 [Remote Mediasoup client](https://mafalda.io/Remote-Mediasoup-client/). It's
 intended to be used for both testing purposes and as a testbed for the migration

@@ -61,9 +61,6 @@ gallery:
   - url: https://dyte.io/
     image_path: /assets/images/logos/dyte.svg
     alt: Dyte
-  - url: https://framevr.io/
-    image_path: /assets/images/logos/framevr.png
-    alt: FrameVR
   - url: https://www.fermax.com/
     image_path: /assets/images/logos/fermax.jpg
     alt: Fermax

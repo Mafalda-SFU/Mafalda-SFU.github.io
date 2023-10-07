@@ -59,13 +59,13 @@ payload with its internal state has been received and sync&#39;ed, and so the
 <a name="RemoteMediasoupClientMock.mediasoup"></a>
 
 ### RemoteMediasoupClientMock.mediasoup
-**Kind**: static property of [<code>RemoteMediasoupClientMock</code>](#RemoteMediasoupClientMock)  
-**Summary**: Get a reference to the `mediasoup` package exported object.
-
 This object is API compatible with the
 [Mediasoup API](https://mediasoup.org/documentation/v3/mediasoup/api/)
 provided by the
-[`Mediasoup` package](https://www.npmjs.com/package/mediasoup).  
+[`Mediasoup` package](https://www.npmjs.com/package/mediasoup).
+
+**Kind**: static property of [<code>RemoteMediasoupClientMock</code>](#RemoteMediasoupClientMock)  
+**Summary**: Get a reference to the `mediasoup` package exported object.  
 **Read only**: true  
 **Date**: 30/04/2023  
 **See**: [https://mediasoup.org/documentation/v3/mediasoup/api/](https://mediasoup.org/documentation/v3/mediasoup/api/)  
@@ -73,16 +73,16 @@ provided by the
 <a name="RemoteMediasoupClientMock.readyState"></a>
 
 ### RemoteMediasoupClientMock.readyState
-**Kind**: static property of [<code>RemoteMediasoupClientMock</code>](#RemoteMediasoupClientMock)  
-**Summary**: Get the current `readyState` of the client.
-
 In addition of the states defined for the WebSocket connection
 [readyState](https://developer.mozilla.org/en-US/docs/Web/API/WebSocket/readyState#value)
 property, this property can have a ['connected' state](#CONNECTED)
 to indicate that the
 [Remote Mediasoup server](https://mafalda.io/Remote-Mediasoup-server/)
 payload with its internal state has been received and sync'ed, and so the
-`Remote Mediasoup` connection has been fully established.  
+`Remote Mediasoup` connection has been fully established.
+
+**Kind**: static property of [<code>RemoteMediasoupClientMock</code>](#RemoteMediasoupClientMock)  
+**Summary**: Get the current `readyState` of the client.  
 **Read only**: true  
 **Date**: 30/04/2023  
 **See**: [https://developer.mozilla.org/en-US/docs/Web/API/WebSocket/readyState](https://developer.mozilla.org/en-US/docs/Web/API/WebSocket/readyState)  
@@ -90,19 +90,19 @@ payload with its internal state has been received and sync'ed, and so the
 <a name="RemoteMediasoupClientMock.close"></a>
 
 ### RemoteMediasoupClientMock.close()
-**Kind**: static method of [<code>RemoteMediasoupClientMock</code>](#RemoteMediasoupClientMock)  
-**Summary**: Close the client.
+If it's already closed, this method does nothing
 
-If it's already closed, this method does nothing  
+**Kind**: static method of [<code>RemoteMediasoupClientMock</code>](#RemoteMediasoupClientMock)  
+**Summary**: Close the client.  
 **Date**: 30/04/2023  
 **Author**: Jesús Leganés-Combarro 'piranna' <piranna@gmail.com>  
 <a name="RemoteMediasoupClientMock.open"></a>
 
 ### RemoteMediasoupClientMock.open([url]) ⇒ [<code>RemoteMediasoupClientMock</code>](#RemoteMediasoupClientMock)
-**Kind**: static method of [<code>RemoteMediasoupClientMock</code>](#RemoteMediasoupClientMock)  
-**Summary**: Open the client to the given URL.
+If it's already open, it will throw an exception
 
-If it's already open, it will throw an exception  
+**Kind**: static method of [<code>RemoteMediasoupClientMock</code>](#RemoteMediasoupClientMock)  
+**Summary**: Open the client to the given URL.  
 **Date**: 30/04/2023  
 **Author**: Jesús Leganés-Combarro 'piranna' <piranna@gmail.com>  
 

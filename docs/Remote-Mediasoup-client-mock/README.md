@@ -1,6 +1,7 @@
 # Remote Mediasoup client mock
 
-[![Coverage](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/mafalda-bot/27d772a9a3a8a945b34fd9676de40486/raw/Remote-Mediasoup-client-mock.json)](https://gist.github.com/Mafalda-bot/27d772a9a3a8a945b34fd9676de40486#file-Remote-Mediasoup-client-mock-json)
+[![Code coverage](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/mafalda-bot/27d772a9a3a8a945b34fd9676de40486/raw/Remote-Mediasoup-client-mock.json)](https://gist.github.com/Mafalda-bot/27d772a9a3a8a945b34fd9676de40486#file-Remote-Mediasoup-client-mock-json)
+[![Docs coverage](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/mafalda-bot/7238ab5f664c36d1edfa48d218eea9b3/raw/Remote-Mediasoup-client-mock.json)](https://gist.github.com/Mafalda-bot/7238ab5f664c36d1edfa48d218eea9b3#file-Remote-Mediasoup-client-mock-json)
 [![npm](https://img.shields.io/npm/v/@mafalda-sfu/remote-mediasoup-client-mock.svg)](https://www.npmjs.com/package/@mafalda-sfu/remote-mediasoup-client-mock)
 
 This project host a class with the same API of the

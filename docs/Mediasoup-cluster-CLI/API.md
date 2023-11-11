@@ -1,18 +1,18 @@
-<a name="module_@mafalda-sfu/rope-mediasoup"></a>
+<a name="module_@mafalda-sfu/mediasoup-cluster-cli"></a>
 
-## @mafalda-sfu/rope-mediasoup
+## @mafalda-sfu/mediasoup-cluster-cli
 
-* [@mafalda-sfu/rope-mediasoup](#module_@mafalda-sfu/rope-mediasoup)
-    * [module.exports](#exp_module_@mafalda-sfu/rope-mediasoup--module.exports) ⏏
-        * [new module.exports(options)](#new_module_@mafalda-sfu/rope-mediasoup--module.exports_new)
+* [@mafalda-sfu/mediasoup-cluster-cli](#module_@mafalda-sfu/mediasoup-cluster-cli)
+    * [module.exports](#exp_module_@mafalda-sfu/mediasoup-cluster-cli--module.exports) ⏏
+        * [new module.exports(options)](#new_module_@mafalda-sfu/mediasoup-cluster-cli--module.exports_new)
 
-<a name="exp_module_@mafalda-sfu/rope-mediasoup--module.exports"></a>
+<a name="exp_module_@mafalda-sfu/mediasoup-cluster-cli--module.exports"></a>
 
 ### module.exports ⏏
-WebSocket server for ROPE.
+CLI for [Mediasoup cluster](https://mafalda.io/Mediasoup-cluster-CLI).
 
 **Kind**: Exported class  
-<a name="new_module_@mafalda-sfu/rope-mediasoup--module.exports_new"></a>
+<a name="new_module_@mafalda-sfu/mediasoup-cluster-cli--module.exports_new"></a>
 
 #### new module.exports(options)
 Creates a new instance of the [MediasoupClusterCli](MediasoupClusterCli) class.

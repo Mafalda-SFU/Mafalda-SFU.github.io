@@ -28,12 +28,4 @@ See [API documentation](https://mafalda.io/Mediasoup-cluster-CLI/API).
 mediasoup-cluster-cli --help
 ```
 
-## Configuration
-
-The CLI can be configured using the following environment variables:
-
-- `PORT`: The port where the server will listen for incoming connections.
-  Defaults to `3000`.
-- `DEBUG`: The debug namespace to use. Defaults to `mediasoup-cluster-cli:*`.
-- `MEDIASOUP_WORKER_BIN`: The path to the Mediasoup worker binary. Defaults to
-  `mediasoup-worker`.
+Options are the same of the API.

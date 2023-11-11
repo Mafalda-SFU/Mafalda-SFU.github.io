@@ -9,10 +9,6 @@
 <dd></dd>
 <dt><a href="#reduceReadyState">reduceReadyState(acum, root0)</a></dt>
 <dd></dd>
-<dt><a href="#_stats">_stats(root0)</a></dt>
-<dd></dd>
-<dt><a href="#_stats_reducer">_stats_reducer(acum, stats)</a></dt>
-<dd></dd>
 <dt><a href="#getOlderMediasoupClient">getOlderMediasoupClient(acum, client)</a></dt>
 <dd></dd>
 <dt><a href="#getterFactory">getterFactory(properties)</a></dt>
@@ -61,26 +57,6 @@
 | acum | 
 | root0 | 
 | root0.readyState | 
-
-<a name="_stats"></a>
-
-## \_stats(root0)
-**Kind**: global function  
-
-| Param |
-| --- |
-| root0 | 
-| root0.mediasoup | 
-
-<a name="_stats_reducer"></a>
-
-## \_stats\_reducer(acum, stats)
-**Kind**: global function  
-
-| Param |
-| --- |
-| acum | 
-| stats | 
 
 <a name="getOlderMediasoupClient"></a>
 

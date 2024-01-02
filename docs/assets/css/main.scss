@@ -10,3 +10,9 @@ $primary-color: #ff7518 !default;  // pumpkin orange
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+// Fix logos full width in mobile
+figure>a {
+  display: block;
+  width: 100%;
+}

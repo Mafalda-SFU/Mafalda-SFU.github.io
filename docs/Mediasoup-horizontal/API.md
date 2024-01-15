@@ -1,62 +1,31 @@
 ## Functions
 
 <dl>
-<dt><a href="#checkVersion">checkVersion(root0, clients)</a></dt>
+<dt><a href="#pipeToRouter">pipeToRouter(options)</a></dt>
 <dd></dd>
-<dt><a href="#isClosed">isClosed(root0)</a></dt>
-<dd></dd>
-<dt><a href="#isConnected">isConnected(root0)</a></dt>
-<dd></dd>
-<dt><a href="#reduceReadyState">reduceReadyState(acum, root0)</a></dt>
+<dt><a href="#createRouter">createRouter(options)</a></dt>
 <dd></dd>
 <dt><a href="#getOlderMediasoupClient">getOlderMediasoupClient(acum, client)</a></dt>
 <dd></dd>
-<dt><a href="#getterFactory">getterFactory(properties)</a></dt>
-<dd></dd>
 </dl>
 
-<a name="checkVersion"></a>
+<a name="pipeToRouter"></a>
 
-## checkVersion(root0, clients)
+## pipeToRouter(options)
 **Kind**: global function  
 
 | Param |
 | --- |
-| root0 | 
-| root0.mediasoup | 
-| root0.mediasoup.version | 
-| clients | 
+| options | 
 
-<a name="isClosed"></a>
+<a name="createRouter"></a>
 
-## isClosed(root0)
+## createRouter(options)
 **Kind**: global function  
 
 | Param |
 | --- |
-| root0 | 
-| root0.readyState | 
-
-<a name="isConnected"></a>
-
-## isConnected(root0)
-**Kind**: global function  
-
-| Param |
-| --- |
-| root0 | 
-| root0.readyState | 
-
-<a name="reduceReadyState"></a>
-
-## reduceReadyState(acum, root0)
-**Kind**: global function  
-
-| Param |
-| --- |
-| acum | 
-| root0 | 
-| root0.readyState | 
+| options | 
 
 <a name="getOlderMediasoupClient"></a>
 
@@ -67,13 +36,4 @@
 | --- |
 | acum | 
 | client | 
-
-<a name="getterFactory"></a>
-
-## getterFactory(properties)
-**Kind**: global function  
-
-| Param |
-| --- |
-| properties | 
 

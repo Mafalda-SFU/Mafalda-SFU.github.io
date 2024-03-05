@@ -23,8 +23,8 @@ Router instances between them to by-pass Mediasoup per-Worker limits.
 graph TD
   mafalda(Mafalda) --> mediasoup(Mediasoup)
 
-  classDef mafaldaApi         fill:#ED872D,stroke:#333
-  classDef mediasoupAPI       fill:#1eb6e8,stroke:#333,font-family:PoiretOne
+  classDef mafaldaApi   fill:#ED872D,stroke:#333
+  classDef mediasoupAPI fill:#1eb6e8,stroke:#333,font-family:PoiretOne
 
   class mediasoup mediasoupAPI
   class mafalda mafaldaApi

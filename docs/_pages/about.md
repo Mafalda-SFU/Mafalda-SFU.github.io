@@ -91,7 +91,7 @@ or [Tsahi Levent-Levi](https://bloggeek.me), among others.
 
 ![thinking]({{ site.url }}{{ site.baseurl }}/assets/images/cocomaterial/thinking_man.svg){: .align-right width="40.6779661017%" }
 
-### Where does the name come from?
+### Where does the name of Mafalda SFU come from?
 
 Name of the project has been taken as a tribute to
 [Mafalda](https://en.wikipedia.org/wiki/Mafalda), the character created by

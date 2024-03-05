@@ -5,6 +5,8 @@ toc: true
 toc_sticky: true
 ---
 
+Total development time: 30 months
+
 ## Stage 1: vertical scaling (March - June 2021)
 
 ### March 2021
@@ -78,7 +80,7 @@ toc_sticky: true
 
 ### February and March 2022
 
-Development was temporaly paused due to profesional responsabilities.
+Development was temporaly paused due to professional responsibilities.
 
 ## Stage 3: Easy porting of actual applications (April - July 2022 and December 2022 - January 2023)
 
@@ -105,7 +107,7 @@ Development was temporaly paused due to profesional responsabilities.
 
 ### August to November 2022
 
-Development was temporaly paused due to profesional responsabilities.
+Development was temporaly paused due to professional responsibilities.
 
 ### December 2022
 
@@ -121,7 +123,7 @@ Development was temporaly paused due to profesional responsabilities.
   automate them in CI servers
 - Start design and architecture of `Mediasoup vertical` module
 
-## Stage 4: Mediasoup vertical scaling & packages publishing (February 2023 - Currently)
+## Stage 4: Mediasoup vertical scaling & packages publishing (February - December 2023)
 
 ### February 2023
 
@@ -151,8 +153,43 @@ Development was temporaly paused due to profesional responsabilities.
 
 ### July 2023
 
-- QA in a Box: create a npm package with all the needed tools and unified
-  config files for all the Mafalda SFU
+- QA in a Box: create npm package with all the needed tools and unified config
+  files for all the Mafalda SFU projects
+
+### August 2023
+
+Development was temporaly paused due to professional responsibilities.
+
+### September 2023
+
+- Improve projects stability and reliability
+
+### October 2023
+
+- Improve projects testing
+
+### November 2023
+
+- Improve reliability of Horizontal and Clustered Mediasoup, and prepare
+  compatibility with [Mediasoup Vertical](/Mediasoup-vertical)
+
+### December 2023
+
+- Finish migration of original [Mafalda](/Mafalda) module to
+  [Mediasoup Vertical](/Mediasoup-vertical), and compatibility with
+  [Mediasoup API](https://mediasoup.org/documentation/v3/mediasoup/api/)
+- Investors documentation
+
+### January 2024
+
+- Automate testing and publishing of all packages
+- Improve investors documentation
+
+### February 2024
+
+- Automate testing and publishing of all packages
+
+## Stage 5: Aggregated scalability (March 2024 - Currently)
 
 ## Roadmap
 
@@ -161,18 +198,18 @@ difficulties, development speed, or due to having other personal or professional
 priorities. If you are interested on any of the future roadmap topics, contact
 us to discuss a sponsorship or commercial services.
 
-### Stage 5: Mediasoup as a Service (August 2023 - November 2023)
+### Stage 6: Mediasoup as a Service (April - September 2024)
 
 Notify about actual servers usage so it's possible to spin-up more instances on
 demand, as a previous step to start offering Remote Mediasoup instances on the
 cloud.
 
-### Stage 6: network monitorization (December 2023 - March 2024)
+### Stage 7: Mafalda Monitor: network monitorization (October 2024 - January 2025)
 
 Tool to monitor in real time the usage and capacity of all servers and clients
 in the network: CPU usage of `Worker`s, number of `Router`s and `Transport`s...
 
-### Stage 7: P2P decentralized horizontal scaling (April - September 2024)
+### Stage 8: Mafalda Swarm: P2P decentralized scaling (February - July 2025)
 
 Use of a Distributed Hash Table to register the Mafalda instances and send
 requests directly between them, without a central controller. Also use it to

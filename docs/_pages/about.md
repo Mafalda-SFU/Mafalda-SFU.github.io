@@ -55,6 +55,19 @@ sectors, like:
 - Multi-source 3D audio applications
 - Online real-time education platforms
 
+## Mafalda SFU ❤️ Open Source
+
+Mafalda SFU is build on top of multiple Open Source projects, being
+[Mediasoup](https://mediasoup.org/) the most prominent one. In addition to that,
+during development of Mafalda SFU we have created and published multiple
+auxiliary Open Source projects and contributed to several others, between
+dependencies, tools, demos, reporters, forks... You can find a list of all our
+Open Source repositories and contribution forks at
+[Mafalda SFU Github organization](https://github.com/Mafalda-SFU), at
+[Mafalda SFU NPM organization](https://www.npmjs.com/org/mafalda-sfu), and a
+list of Mafalda SFU team created issues, PRs & Open Source contributions at
+[Mafalda SFU Notion page](https://mafalda-sfu.notion.site/Issues-PRs-OS-contributions-43468a7e809f41aea03251f414722636?pvs=4).
+
 ## A [Jesús Leganés-Combarro](https://piranna.github.io) project
 
 Being one of the Spain first WebRTC experts and pioneers since 2012 with

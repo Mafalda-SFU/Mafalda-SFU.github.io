@@ -98,6 +98,41 @@ Name of the project has been taken as a tribute to
 Joaquín Salvador Lavado Tejón '[Quino](https://www.quino.com.ar/homequino)',
 that has a love-hate relationship with both *mass media* and soup 😉
 
+### Will Mafalda SFU allows me to display thousands of participants in a single room?
+
+Not by itself.
+
+Mafalda SFU is a library that allows to create and manage WebRTC audio and video
+conference rooms and streaming with thousands of participants over multiple
+servers, in a fully automated way. The bottleneck of the number of participants
+that can be played at the same time is not a limitation of Mafalda SFU, but of
+the browser or mobile app clients that are playing them. Several tests has shown
+that Chrome browser in a regular Intel i7 laptop can smoothly play up to 16
+videos at the same time, starting to be unstable with 20-25 videos, and being
+practically useless with 30 or more videos, also with low resolution and
+framerate, and on mobile devices it's not practical to show more than 6 videos a
+the same time (mostly due to screen size restrictions).
+
+In addition to that practical hardware or bandwidth limits from the clients
+side, Chrome itself imposed a hard limit of
+[200 tracks (audio or video) on desktop and 100 tracks on mobile](https://chromium.googlesource.com/chromium/src/+/9e03c50a4b268bbca6f2cba903131b88072420d7%5E%21/#F0)
+due to these quality issues, although it was later uplift to
+[1000 tracks](https://chromium.googlesource.com/chromium/src/+/f7489718ee87fbef92c59d35d9437cf55466fa2c%5E%21/#F0)
+until a better solution was implemented since there was
+[critics](https://bugs.chromium.org/p/chromium/issues/detail?id=1232649) from
+developers of high demanding web applications, but as of January 2024 it's still
+[not implemented](https://bugs.chromium.org/p/chromium/issues/detail?id=1144736).
+
+If your application needs to play more streams than the browser or mobile app
+can handle, you can use Mafalda SFU to manage the media streams and distribute
+them to the clients, but you'll need to implement your own logic to display
+them in a way that is useful for your application. For example, in a video
+conference app you can have a layout where only the most recently active users
+are being shown, and push back others to a list, so you can mute or stop their
+video tracks and only play the audio of that less recently active participants,
+or in a metaverse you can play the audio of the closest avatars, saving both CPU
+processing and bandwidth at the same time.
+
 ## Related pages
 
 - [Slides](/slides/)

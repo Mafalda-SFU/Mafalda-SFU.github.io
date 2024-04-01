@@ -7,8 +7,9 @@ feature_row1:
     image_path: /assets/images/cocomaterial/device_desktop_working_code.svg
     excerpt: |
       There's no need to learn something new, usage of Mafalda SFU is
-      transparent for already developed Mediasoup-based applications. You can
-      migrate and scale your application in minutes, instead of months
+      transparent for both developers and applications code. You can create a
+      new media streaming app from scratch or migrate your current
+      Mediasoup-based one and scale them in minutes, instead of months
     title: Same API of Mediasoup
 feature_row2:
   - alt: Network, self management
@@ -33,10 +34,10 @@ feature_row4:
     image_path: /assets/images/cocomaterial/code_bugs_software.svg
     excerpt: |
       Implemented to be robust and resilient, Mafalda SFU projects follows
-      strict code quality standards and security measurements for all Mafalda
-      SFU projects, with more than 90% code coverage in almost all of them,
-      reduced attack surface, using encrypted communications, and having an
-      exhaustive errors management
+      strict code quality standards and security measurements for all projects,
+      with more than 90% code coverage in almost all of them, minimal API attack
+      surface, using encrypted communications, or having an exhaustive errors
+      management, between other security protections and resilience measurements
     title: Security oriented
 feature_row5:
   - alt: Ham radio, modularity
@@ -52,9 +53,9 @@ feature_row6:
     btn_label: Contact us
     image_path: /assets/images/cocomaterial/investment.svg
     excerpt: |
-      Mafalda SFU modular and interconnectable design allows to adapt itself to
-      your needs and budged and provide you a price adjusted to your specific
-      use case, and being able to evolve with your future requirements
+      Mafalda SFU modular and interconnectable design allows it to adapt itself
+      to your needs and budged and provide you a price adjusted to your specific
+      use case, and being able to evolve over time with your future requirements
     title: Prices adapted to your needs
     url: /contact/
 gallery:

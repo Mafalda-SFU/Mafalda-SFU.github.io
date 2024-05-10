@@ -6,11 +6,6 @@ Scalable SFU based on Mediasoup
 on provide an easier API by managing itself all the performance and scalability
 issues by default, including multi-machine clustering.
 
-Name of the project has been taken as a tribute to
-[Mafalda](https://en.wikipedia.org/wiki/Mafalda), the character created by
-Joaquín Salvador Lavado Tejón '[Quino](https://www.quino.com.ar/homequino)',
-that has a love-hate relationship with both *mass media* and soup ;-)
-
 It's designed having in mind high scale one-to-many WebRTC-based
 videoconferences, but it's possible to use it with any kind of WebRTC-based
 application including many-to-many videocalls, specially when they are designed
@@ -195,14 +190,14 @@ properties and methods:
   [Router.createWebRtcTransport](https://mediasoup.org/documentation/v3/mediasoup/api/#router-createWebRtcTransport)
   method.
 
-- async `getRtpCapabilities()`: function to get the RTP capabilities of the
+- `rtpCapabilities`: attribute to get the RTP capabilities of the
   `MafaldaRouter` instance. These capabilities are tipically needed by Mediasoup
   clients to compute their sending RTP parameters. It's equivalent to Mediasoup
   [Router.rtpCapabilities](https://mediasoup.org/documentation/v3/mediasoup/api/#router-rtpCapabilities)
   property, only that implemented as an `async` method to allow to create an
   internal Mediasoup `Router` instance if we don't have one currently available.
 
-- async `pipeToMafaldaRouter(options)`: pipes the given media or data producer
+- async `pipeToRouter(options)`: pipes the given media or data producer
   into another `MafaldaRouter` in the same host. It's similar to Mediasoup
   [Router.pipeToRouter](https://mediasoup.org/documentation/v3/mediasoup/api/#router-pipeToRouter),
   only replacing the `router` option for `mafaldaRouter` instead.

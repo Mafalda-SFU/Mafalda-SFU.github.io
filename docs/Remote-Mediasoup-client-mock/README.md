@@ -38,11 +38,12 @@ your project code:
 TODO: add info to replace dependency, updating the package version in the docs
 -->
 
-1. Replace the `mediasoup` import for `remote-mediasoup-client-mock`:
+1. Replace the `mediasoup` import for
+   `@mafalda-sfu/remote-mediasoup-client-mock`:
 
    ```diff
    - import mediasoup from 'mediasoup'
-   + import RemoteMediasoupClientMock from 'remote-mediasoup-client-mock'
+   + import RemoteMediasoupClientMock from '@mafalda-sfu/remote-mediasoup-client-mock'
    ```
 
 2. Create the instance of the `RemoteMediasoupClientMock` object, wait for its

@@ -1,13 +1,23 @@
 ## Functions
 
 <dl>
+<dt><a href="#getOlderMediasoupClient">getOlderMediasoupClient(acum, client)</a></dt>
+<dd></dd>
 <dt><a href="#pipeToRouter">pipeToRouter(options)</a></dt>
 <dd></dd>
 <dt><a href="#createRouter">createRouter(options)</a></dt>
 <dd></dd>
-<dt><a href="#getOlderMediasoupClient">getOlderMediasoupClient(acum, client)</a></dt>
-<dd></dd>
 </dl>
+
+<a name="getOlderMediasoupClient"></a>
+
+## getOlderMediasoupClient(acum, client)
+**Kind**: global function  
+
+| Param |
+| --- |
+| acum | 
+| client | 
 
 <a name="pipeToRouter"></a>
 
@@ -26,14 +36,4 @@
 | Param |
 | --- |
 | options | 
-
-<a name="getOlderMediasoupClient"></a>
-
-## getOlderMediasoupClient(acum, client)
-**Kind**: global function  
-
-| Param |
-| --- |
-| acum | 
-| client | 
 

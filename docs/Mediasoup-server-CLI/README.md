@@ -1,12 +1,12 @@
-# Remote Mediasoup server CLI
+# Mediasoup server CLI
 
-[![Coverage](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/mafalda-bot/27d772a9a3a8a945b34fd9676de40486/raw/Remote-Mediasoup-server-CLI.json)](https://gist.github.com/Mafalda-bot/27d772a9a3a8a945b34fd9676de40486#file-Remote-Mediasoup-server-CLI-json)
+[![Coverage](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/mafalda-bot/27d772a9a3a8a945b34fd9676de40486/raw/Mediasoup-server-CLI.json)](https://gist.github.com/Mafalda-bot/27d772a9a3a8a945b34fd9676de40486#file-Mediasoup-server-CLI-json)
 
 [Mediasoup](https://mediasoup.org) as a Service
 
 This CLI tool starts a WebSocket server to offer access to a Mediasoup instance,
 to be able to use it remotely in combination of
-[Remote Mediasoup client](https://mafalda.io/Remote-Mediasoup-client).
+[Mediasoup client](https://mafalda.io/Mediasoup-client).
 
 ## CLI usage
 
@@ -26,10 +26,8 @@ You can gracefully stop the server with `Ctrl+C` or `Ctrl+D` (`SIGINT` and
 ## API
 
 Module exports a single function with signature
-`async function(mediasoup, {closeOwnWorkers, ...options} = {})`:
+`async function({argv: [...]} = {})`:
 
-- `mediasoup`: object with same API than exported by
-  [Mediasoup](https://mediasoup.org) package.
 - `[options]`: obtional options bag
   - `[argv]`: obtional array of strings, arguments to parse. Same ones of the
     [CLI usage](#cli-usage), including leading dashes on keys, and being key and

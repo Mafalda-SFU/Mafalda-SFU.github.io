@@ -1,7 +1,7 @@
 ## Functions
 
 <dl>
-<dt><a href="#methodsFactory">methodsFactory(instance, sendBroadcast, deserialize, listenIps, announcedIp)</a></dt>
+<dt><a href="#methodsFactory">methodsFactory(instance, sendBroadcast, deserialize, listenIps, announcedIp, sendNotification)</a></dt>
 <dd></dd>
 <dt><a href="#createWebRtcTransportFactory">createWebRtcTransportFactory(deserialize, localListenIps, announcedIp)</a></dt>
 <dd></dd>
@@ -29,7 +29,7 @@ the other fields for the sake of completeness.</p>
 
 <a name="methodsFactory"></a>
 
-## methodsFactory(instance, sendBroadcast, deserialize, listenIps, announcedIp)
+## methodsFactory(instance, sendBroadcast, deserialize, listenIps, announcedIp, sendNotification)
 **Kind**: global function  
 
 | Param |
@@ -39,6 +39,7 @@ the other fields for the sake of completeness.</p>
 | deserialize | 
 | listenIps | 
 | announcedIp | 
+| sendNotification | 
 
 <a name="methodsFactory..createWorker"></a>
 

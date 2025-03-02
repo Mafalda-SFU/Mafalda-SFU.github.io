@@ -29,7 +29,7 @@ Constructor of the client.
 ### readyState
 
 Property showing the actual state of the connection, possible values are
-`CONNECTING`, `OPEN`, `CLOSSING`, `CLOSED` and `CONNECTED`. `CONNECTED` state is
+`CONNECTING`, `OPEN`, `CLOSING`, `CLOSED` and `CONNECTED`. `CONNECTED` state is
 reached after receiving initial payload from server with its current state.
 
 ### close()

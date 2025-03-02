@@ -10,7 +10,7 @@
     * [.module.exports](#RopeClient.module.exports)
         * [new module.exports(url, options)](#new_RopeClient.module.exports_new)
     * [.Connection](#RopeClient.Connection)
-    * [.open(url)](#RopeClient.open) ⇒ <code>\*</code>
+    * [.open(url)](#RopeClient.open) ⇒ [<code>RopeClient</code>](#RopeClient)
 
 <a name="RopeClient.module.exports"></a>
 
@@ -37,12 +37,13 @@ Creates an instance of RopeClient.
 **Author**: Jesús Leganés-Combarro 'piranna' <piranna@gmail.com>  
 <a name="RopeClient.open"></a>
 
-### RopeClient.open(url) ⇒ <code>\*</code>
+### RopeClient.open(url) ⇒ [<code>RopeClient</code>](#RopeClient)
 **Kind**: static method of [<code>RopeClient</code>](#RopeClient)  
+**Returns**: [<code>RopeClient</code>](#RopeClient) - this  
 **Date**: 20/12/2022  
 **Author**: Jesús Leganés-Combarro 'piranna' <piranna@gmail.com>  
 
-| Param | Type |
-| --- | --- |
-| url | <code>\*</code> | 
+| Param | Type | Description |
+| --- | --- | --- |
+| url | <code>string</code> | The URL to connect to the server endpoint (WebSocket) |
 

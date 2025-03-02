@@ -25,7 +25,6 @@
     * [new RemoteMediasoupClient()](#new_RemoteMediasoupClient_new)
     * [.module.exports](#RemoteMediasoupClient.module.exports)
         * [new module.exports([url], [options])](#new_RemoteMediasoupClient.module.exports_new)
-    * [.mediasoup](#RemoteMediasoupClient.mediasoup) ⇒
     * [.readyState](#RemoteMediasoupClient.readyState) ⇒ <code>number</code>
     * [.close()](#RemoteMediasoupClient.close)
     * [.open([url])](#RemoteMediasoupClient.open) ⇒ [<code>RemoteMediasoupClient</code>](#RemoteMediasoupClient)
@@ -50,25 +49,6 @@ Facade class to don't give access to `RopeClient._connection` to the user.
 | [url] | <code>string</code> \| <code>object</code> | URL of the [Remote Mediasoup server](https://mafalda.io/Remote-Mediasoup-server/). If it's not provided, the [RemoteMediasoupClient](#RemoteMediasoupClient) object will remain in closed state. |
 | [options] | <code>object</code> | Options for the connection |
 
-<a name="RemoteMediasoupClient.mediasoup"></a>
-
-### RemoteMediasoupClient.mediasoup ⇒
-This object is API compatible with the
-[Mediasoup API](https://mediasoup.org/documentation/v3/mediasoup/api/)
-provided by the
-[`Mediasoup` package](https://www.npmjs.com/package/mediasoup).
-
-In case there's a disconnection, it will reconnect transparently by itself.
-The object will preserve its state so it can be accessed and requested
-while it's disconnected, and will update and synchronize its state
-automatically.
-
-**Kind**: static property of [<code>RemoteMediasoupClient</code>](#RemoteMediasoupClient)  
-**Summary**: Get a `mediasoup`-like object.  
-**Returns**: object exposing the same API of Mediasoup  
-**Read only**: true  
-**See**: [https://mediasoup.org/documentation/v3/mediasoup/api/](https://mediasoup.org/documentation/v3/mediasoup/api/)  
-**Author**: Jesús Leganés-Combarro 'piranna' <piranna@gmail.com>  
 <a name="RemoteMediasoupClient.readyState"></a>
 
 ### RemoteMediasoupClient.readyState ⇒ <code>number</code>

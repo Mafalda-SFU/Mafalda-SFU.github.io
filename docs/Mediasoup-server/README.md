@@ -19,7 +19,7 @@ Module exports a single function with signature
   - `[announcedIp]`: optional string, IP address to announce to the clients. If
     not provided, the server will try to guess it.
   - `[closeOwnWorkers]`: optional boolean, whether to close the workers created
-    by this module when the server is closed. Default `false`.
+    by this module when the server is closed. Default `true`.
   - `[listenIps]`: optional array of strings, IP addresses to listen to. Default
     `[]`, which means no globally provided local listen IPs (only the ones
     provided to the Mediasoup `Router.createWebRtcTransport()` method).

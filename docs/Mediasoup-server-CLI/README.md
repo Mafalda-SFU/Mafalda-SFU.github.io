@@ -34,7 +34,6 @@ Module exports a single function with signature
     value in two strings or a single one if joined with `=`. Default
     `process.argv`.
   - `[closeOwnWorkers]`: optional boolean, whether to close the workers created
-    by this module when the server is closed. Default `false`, when using
-    [CLI](#cli-usage) set unconditionally to `true`.
+    by this module when the server is closed. Default `true`.
   - `[env]`: obtional object, environment variables to use. Default
     `process.env`.

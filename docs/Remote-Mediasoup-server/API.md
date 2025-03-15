@@ -1,7 +1,7 @@
 ## Functions
 
 <dl>
-<dt><a href="#methodsFactory">methodsFactory(instance, sendBroadcast, deserialize, listenIps, announcedIp, sendNotification)</a></dt>
+<dt><a href="#methodsFactory">methodsFactory(mediasoupManager, sendBroadcast, deserialize, listenIps, announcedIp, sendNotification)</a></dt>
 <dd></dd>
 <dt><a href="#createWebRtcTransportFactory">createWebRtcTransportFactory(deserialize, localListenIps, announcedIp)</a></dt>
 <dd></dd>
@@ -29,12 +29,12 @@ the other fields for the sake of completeness.</p>
 
 <a name="methodsFactory"></a>
 
-## methodsFactory(instance, sendBroadcast, deserialize, listenIps, announcedIp, sendNotification)
+## methodsFactory(mediasoupManager, sendBroadcast, deserialize, listenIps, announcedIp, sendNotification)
 **Kind**: global function  
 
 | Param |
 | --- |
-| instance | 
+| mediasoupManager | 
 | sendBroadcast | 
 | deserialize | 
 | listenIps | 

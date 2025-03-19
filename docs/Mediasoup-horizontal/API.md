@@ -1,27 +1,18 @@
 ## Functions
 
 <dl>
-<dt><a href="#getOlderMediasoupClient">getOlderMediasoupClient(acum, client)</a></dt>
-<dd></dd>
 <dt><a href="#pipeToRouter">pipeToRouter(options)</a></dt>
-<dd></dd>
+<dd><p>Pipe events from the pipe Consumer to the pipe Producer.</p>
+</dd>
 <dt><a href="#createRouter">createRouter(options)</a></dt>
 <dd></dd>
 </dl>
 
-<a name="getOlderMediasoupClient"></a>
-
-## getOlderMediasoupClient(acum, client)
-**Kind**: global function  
-
-| Param |
-| --- |
-| acum | 
-| client | 
-
 <a name="pipeToRouter"></a>
 
 ## pipeToRouter(options)
+Pipe events from the pipe Consumer to the pipe Producer.
+
 **Kind**: global function  
 
 | Param |

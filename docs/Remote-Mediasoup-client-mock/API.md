@@ -34,7 +34,7 @@ payload with its internal state has been received and sync&#39;ed, and so the
 
 * [RemoteMediasoupClientMock](#RemoteMediasoupClientMock) ⇐ <code>EventEmitter</code>
     * [.module.exports](#RemoteMediasoupClientMock.module.exports)
-        * [new module.exports([url], [WebSocket])](#new_RemoteMediasoupClientMock.module.exports_new)
+        * [new module.exports([url], [options])](#new_RemoteMediasoupClientMock.module.exports_new)
     * [.mediasoup](#RemoteMediasoupClientMock.mediasoup)
     * [.readyState](#RemoteMediasoupClientMock.readyState)
     * [.close()](#RemoteMediasoupClientMock.close)
@@ -49,12 +49,12 @@ payload with its internal state has been received and sync&#39;ed, and so the
 **Author**: Jesús Leganés-Combarro 'piranna' <piranna@gmail.com>  
 <a name="new_RemoteMediasoupClientMock.module.exports_new"></a>
 
-#### new module.exports([url], [WebSocket])
+#### new module.exports([url], [options])
 
 | Param | Type | Description |
 | --- | --- | --- |
 | [url] | <code>string</code> \| <code>object</code> | URL of the [Remote Mediasoup server](https://mafalda.io/Remote-Mediasoup-server/). If it's not provided, the [RemoteMediasoupClientMock](#RemoteMediasoupClientMock) object will remain in closed state. |
-| [WebSocket] | <code>object</code> | WebSocket class to be used to create the connections with the [Remote Mediasoup server](https://mafalda.io/Remote-Mediasoup-server/) |
+| [options] | <code>object</code> | Options for the connection |
 
 <a name="RemoteMediasoupClientMock.mediasoup"></a>
 

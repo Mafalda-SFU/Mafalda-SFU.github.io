@@ -183,7 +183,19 @@ Development was temporaly paused due to professional responsibilities.
 
 ## Stage 5:  (December 2024 - March 2025)
 
+### December 2024
 
+- Update APIs and compatibility with latest Mediasoup version
+
+### February 2025
+
+- Unify APIs & improve modules composability
+
+### March 2025
+
+- Unify APIs & improve modules composability
+- Aggregated scalability (vertical on top of horizontal)
+- Prepare for the next stage: Mediasoup as a Service
 
 ### Stage 6: Mediasoup as a Service (April 2025 - Currently in progress)
 

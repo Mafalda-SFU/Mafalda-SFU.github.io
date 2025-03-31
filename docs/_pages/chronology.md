@@ -78,10 +78,6 @@ Total development time: 30 months
 - Improve reliability of remote control
 - 100% tests coverage for all remote control modules
 
-### February and March 2022
-
-Development was temporaly paused due to professional responsibilities.
-
 ## Stage 3: Easy porting of actual applications (April - July 2022 and December 2022 - January 2023)
 
 ### April 2022
@@ -104,10 +100,6 @@ Development was temporaly paused due to professional responsibilities.
 ### July 2022
 
 - Finish de-duplication of `appData` objects in `Remote Mediasoup`
-
-### August to November 2022
-
-Development was temporaly paused due to professional responsibilities.
 
 ### December 2022
 

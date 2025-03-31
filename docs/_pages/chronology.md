@@ -181,27 +181,27 @@ Development was temporaly paused due to professional responsibilities.
 
 - Automate testing and publishing of all packages
 
-## Stage 5: Aggregated scalability (March 2024 - Currently)
+## Stage 5:  (December 2024 - March 2025)
 
-## Roadmap
 
-All dates are estimated and can suffer of variations depending of the found
-difficulties, development speed, or due to having other personal or professional
-priorities. If you are interested on any of the future roadmap topics, contact
-us to discuss a sponsorship or commercial services.
 
-### Stage 6: Mediasoup as a Service (April - September 2024)
+### Stage 6: Mediasoup as a Service (April 2025 - Currently in progress)
 
 Notify about actual servers usage so it's possible to spin-up more instances on
 demand, as a previous step to start offering Remote Mediasoup instances on the
 cloud.
 
-### Stage 7: Mafalda Monitor: network monitorization (October 2024 - January 2025)
+## Roadmap
+
+All dates are estimated and can suffer of variations. If you are interested on
+any of the future roadmap topics, contact us to discuss for commercial services.
+
+### Stage 7: Mafalda Monitor: network monitorization (October 2025 - January 2026)
 
 Tool to monitor in real time the usage and capacity of all servers and clients
 in the network: CPU usage of `Worker`s, number of `Router`s and `Transport`s...
 
-### Stage 8: Mafalda Swarm: P2P decentralized scaling (February - July 2025)
+### Stage 8: Mafalda Swarm: P2P decentralized scaling (February - July 2026)
 
 Use of a Distributed Hash Table to register the Mafalda instances and send
 requests directly between them, without a central controller. Also use it to

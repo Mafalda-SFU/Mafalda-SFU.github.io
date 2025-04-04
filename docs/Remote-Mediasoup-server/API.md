@@ -1,21 +1,22 @@
 ## Functions
 
 <dl>
-<dt><a href="#methodsFactory">methodsFactory(mediasoupManager, sendBroadcast, deserialize, listenIps, announcedIp, sendNotification)</a></dt>
+<dt><a href="#methodsFactory">methodsFactory(mediasoupManager, sendBroadcast, deserialize, announcedIp, sendNotification)</a></dt>
 <dd></dd>
-<dt><a href="#createWebRtcTransportFactory">createWebRtcTransportFactory(deserialize, localListenIps, announcedIp)</a></dt>
+<dt><a href="#createWebRtcTransportFactory">createWebRtcTransportFactory(deserialize, announcedIp)</a></dt>
 <dd></dd>
 <dt><a href="#enhanceRtpObserver">enhanceRtpObserver(rtpObserver)</a></dt>
 <dd></dd>
 <dt><a href="#enhanceTransport">enhanceTransport(transport, root0)</a></dt>
 <dd></dd>
-<dt><a href="#genListenIps">genListenIps(listenIps, localListenIps)</a></dt>
-<dd></dd>
+<dt><a href="#isINADDR_ANY">isINADDR_ANY(listenIp, ip)</a> ⇒ <code>boolean</code></dt>
+<dd><p>Check if <code>ip</code> means &quot;all addresses in the local machine&quot;</p>
+</dd>
 <dt><a href="#mapPipeTransport">mapPipeTransport(root0)</a></dt>
 <dd><p>We only need <code>tuple</code> for PipeTransport, but we implement the serialization of
 the other fields for the sake of completeness.</p>
 </dd>
-<dt><a href="#methodsFactory">methodsFactory(deserialize, sendBroadcast, localListenIps, announcedIp)</a></dt>
+<dt><a href="#methodsFactory">methodsFactory(deserialize, sendBroadcast, announcedIp)</a></dt>
 <dd></dd>
 <dt><a href="#pipeToRouter">pipeToRouter(root0, id)</a></dt>
 <dd></dd>
@@ -29,7 +30,7 @@ the other fields for the sake of completeness.</p>
 
 <a name="methodsFactory"></a>
 
-## methodsFactory(mediasoupManager, sendBroadcast, deserialize, listenIps, announcedIp, sendNotification)
+## methodsFactory(mediasoupManager, sendBroadcast, deserialize, announcedIp, sendNotification)
 **Kind**: global function  
 
 | Param |
@@ -37,7 +38,6 @@ the other fields for the sake of completeness.</p>
 | mediasoupManager | 
 | sendBroadcast | 
 | deserialize | 
-| listenIps | 
 | announcedIp | 
 | sendNotification | 
 
@@ -52,13 +52,12 @@ the other fields for the sake of completeness.</p>
 
 <a name="createWebRtcTransportFactory"></a>
 
-## createWebRtcTransportFactory(deserialize, localListenIps, announcedIp)
+## createWebRtcTransportFactory(deserialize, announcedIp)
 **Kind**: global function  
 
 | Param |
 | --- |
 | deserialize | 
-| localListenIps | 
 | announcedIp | 
 
 <a name="enhanceRtpObserver"></a>
@@ -81,15 +80,17 @@ the other fields for the sake of completeness.</p>
 | root0 | 
 | root0.id | 
 
-<a name="genListenIps"></a>
+<a name="isINADDR_ANY"></a>
 
-## genListenIps(listenIps, localListenIps)
+## isINADDR\_ANY(listenIp, ip) ⇒ <code>boolean</code>
+Check if `ip` means "all addresses in the local machine"
+
 **Kind**: global function  
 
 | Param |
 | --- |
-| listenIps | 
-| localListenIps | 
+| listenIp | 
+| ip | 
 
 <a name="mapPipeTransport"></a>
 
@@ -111,14 +112,13 @@ the other fields for the sake of completeness.
 
 <a name="methodsFactory"></a>
 
-## methodsFactory(deserialize, sendBroadcast, localListenIps, announcedIp)
+## methodsFactory(deserialize, sendBroadcast, announcedIp)
 **Kind**: global function  
 
 | Param |
 | --- |
 | deserialize | 
 | sendBroadcast | 
-| localListenIps | 
 | announcedIp | 
 
 <a name="methodsFactory..createWorker"></a>

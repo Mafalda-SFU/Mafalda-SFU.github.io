@@ -7,7 +7,7 @@ Remote proxies to Mediasoup classes
 ## API
 
 - `[announcedIp]`: optional string, IP address to announce to the clients. If
-  not provided, the server will try to guess it.
+  not provided, the server will try to choose one of the local ones.
 - `[appDataManager]`: optional instance of AppDataManager class, to be used to
   store and retrieve data from the app. Default `new AppDataManager()`.
 - `[extraConnectionPayload]`: optional function, return value will be added to
@@ -15,8 +15,5 @@ Remote proxies to Mediasoup classes
 - `[extraMethodsFactory]`: optional function with
   `function sendNotification(method, ...args)` as single argument, return value
   will be added to the methods object sent to the client. Default `() => ({})`.
-- `[listenIps]`: optional array of strings, IP addresses to listen to. Default
-  `[]`, which means no globally provided local listen IPs (only
-  `createWebRtcTransport()` provided ones).
 - `[sendFullErrors]`: optional boolean, whether to send full error objects to
   the client. Default `false`.

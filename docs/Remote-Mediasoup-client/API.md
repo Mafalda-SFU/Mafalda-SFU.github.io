@@ -48,6 +48,7 @@ Facade class to don't give access to `RopeClient._connection` to the user.
 | --- | --- | --- |
 | [url] | <code>string</code> \| <code>object</code> | URL of the [Remote Mediasoup server](https://mafalda.io/Remote-Mediasoup-server/). If it's not provided, the [RemoteMediasoupClient](#RemoteMediasoupClient) object will remain in closed state. |
 | [options] | <code>object</code> | Options for the connection |
+| [options.listenWorkerDied] | <code>boolean</code> |  |
 
 <a name="RemoteMediasoupClient.readyState"></a>
 

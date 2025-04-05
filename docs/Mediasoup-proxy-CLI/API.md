@@ -4,7 +4,7 @@
 
 * [@mafalda-sfu/mediasoup-proxy-cli](#module_@mafalda-sfu/mediasoup-proxy-cli)
     * [module.exports](#exp_module_@mafalda-sfu/mediasoup-proxy-cli--module.exports) ⏏
-        * [new module.exports(url, options)](#new_module_@mafalda-sfu/mediasoup-proxy-cli--module.exports_new)
+        * [new module.exports(mediasoupManager, options)](#new_module_@mafalda-sfu/mediasoup-proxy-cli--module.exports_new)
 
 <a name="exp_module_@mafalda-sfu/mediasoup-proxy-cli--module.exports"></a>
 
@@ -14,13 +14,13 @@ CLI for [Mediasoup proxy](https://mafalda.io/Mediasoup-proxy-CLI).
 **Kind**: Exported class  
 <a name="new_module_@mafalda-sfu/mediasoup-proxy-cli--module.exports_new"></a>
 
-#### new module.exports(url, options)
+#### new module.exports(mediasoupManager, options)
 Creates a new instance of the [MediasoupClusterCli](MediasoupClusterCli) class.
 
 
 | Param | Type | Description |
 | --- | --- | --- |
-| url |  | remote Mediasoup servers URL |
+| mediasoupManager |  | A MediasoupManager instance |
 | options | <code>object</code> | The options for the [MediasoupClusterCli](MediasoupClusterCli) instance. // ROPE WebSocket server |
 | [options.cert] | <code>string</code> | Path to the certificate file |
 | [options.key] | <code>string</code> | Path to the key file |

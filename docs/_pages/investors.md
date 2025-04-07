@@ -24,8 +24,9 @@ management of the media scalability.
 
 It is designed to handle thousands of simultaneous participants, only limited by
 the number of servers added to the system. Actual load testing has not yet been
-performed: since 100% compatibility with Mediasoup API is a requirement, the
-development has focused primarily on API completeness and project robustness.
+performed: since 100% compatibility with Mediasoup API is a self-imposed
+requirement, the development has focused primarily on API completeness and
+project robustness.
 
 Other future features include:
 

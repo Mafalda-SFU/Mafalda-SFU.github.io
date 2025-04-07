@@ -29,12 +29,9 @@ development has focused primarily on API completeness and project robustness.
 
 Other future features include:
 
-- Notify of actual servers usage, and automatic spinning-up of more instances
-  on demand.
+- Automatic spin-up server instances on demand.
 - Monitor in real time the usage and capacity of all servers and clients.
-- P2P decentralized scaling, automatic balancing of resources between servers
-  and clients, and access the streams from the closest server.
-- Extends P2P network globally, with servers in each region.
+- Create a global P2P decentralized streaming network.
 
 ## What does it needs to do it?
 

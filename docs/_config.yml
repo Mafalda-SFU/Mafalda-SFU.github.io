@@ -68,6 +68,9 @@ footer:
     - label: NPM
       icon: fab fa-fw fa-npm
       url: https://npmjs.com/org/mafalda-sfu
+    - label: Investors
+      icon: fas fa-fw fa-university
+      url: /investors/
     - label: Legal
       icon: fas fa-fw fa-balance-scale
       url: /legal/

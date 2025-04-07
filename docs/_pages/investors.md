@@ -1,0 +1,183 @@
+---
+permalink: /investors/
+title: Investors
+---
+
+## What is Mafalda SFU?
+
+Mafalda SFU is a suite of combinable software packages that provides an API
+compatible with [Mediasoup](https://mediasoup.org/), and allows to host audio
+and video conference rooms and media streaming sessions with thousands of
+participants at the same time.
+
+## What does it do now?
+
+It aggregates the capacity of several CPU cores distributed over multiple
+servers as if they were a single one, and allows to create and manage WebRTC and
+media streaming sessions with thousands of participants in a fully automated
+way. We can also offer remote Mediasoup instances as a SaaS, so developers only
+need to focus on their application logic, and Mafalda SFU will take care of
+management of the media scalability.
+
+## What can it do in the future?
+
+It is designed to handle thousands of simultaneous participants, only limited by
+the number of servers added to the system. Actual load testing has not yet been
+performed: since 100% compatibility with Mediasoup API is a requirement, the
+development has focused primarily on API completeness and project robustness.
+
+Other future features include:
+
+- Notify of actual servers usage, and automatic spinning-up of more instances
+  on demand.
+- Monitor in real time the usage and capacity of all servers and clients.
+- P2P decentralized scaling, automatic balancing of resources between servers
+  and clients, and access the streams from the closest server.
+- Extends P2P network globally, with servers in each region.
+
+## What does it needs to do it?
+
+Project is already feature complete, and the API is 100% compatible with
+Mediasoup tests. Current efforts are focused on implement load tests and
+improve the documentation. We are looking for investors and partners to both
+raise funds to help us with the development of the project, and more specially
+for marketing and to prospect for new clients and opportunities.
+
+For development of short-term features, we estimate 100-140 hours of work. That
+can be done in 3-4 weeks, and based on a rate of 100-120k€/h for a international
+level WebRTC Architect role, we are looking for a budget of 12-14k€ to cover the
+development costs during that time.
+
+For marketing and prospecting, we are looking for a budget of 10-15k€ to cover
+the costs of a marketing campaign. That would be focused on the prospecting of
+new clients among the current Mafalda SFU target users, and to raise awareness
+of the project. Also to help us to get in touch with potential partners and
+investors.
+
+Finally, we are looking for a budget of 20-30k€ to cover the costs of the
+development and marketing campaign during the next 3-4 months.
+
+## Lean Canvas
+
+<table>
+  <tr>
+    <th style="text-align:center">Problem</th>
+    <th style="text-align:center">Solution</th>
+    <th colspan="2" style="text-align:center">Unique Value Proposition</th>
+    <th style="text-align:center">Unfair Advantage</th>
+    <th style="text-align:center">Customer Segments</th>
+  </tr>
+  <tr>
+    <td rowspan="3">
+      <p>
+        Start a project with a cloud provider because it's easy and fast, but
+        find they are not flexible in their use cases, they are expensive in the
+        long run once project grows, and need a full rewrite to migrate to a
+        different provider
+      </p>
+      <p>
+        Start a project with Mediasoup because it's free and performant, but
+        find room are limited to a single CPU core, and scalability is difficult
+        both to program in an efficient way, and to manage them
+      </p>
+      <p>
+        Don't have the knowledge, time or resources to build a custom scalable
+        streaming infrastructure, and need to focus on the application logic
+      </p>
+    </td>
+    <td>
+      <p>
+        Based on Mediasoup API, no need to change the application logic nor
+        learn a new API
+      </p>
+      <p>
+        Not tied to a provider, can migrate to another provider or deploy in
+        local at any moment
+      </p>
+      <p>Migration can be done in minutes instead of weeks or months</p>
+    </td>
+    <td rowspan="3" colspan="2">
+      <p>
+        Boutique solution: migrate in minutes to a robust solution that can be
+        hosted on-premises, instead of expend months or years to develop a
+        custom bug-prone solution that needs to be maintained by experts, or
+        depend on expensive and captive third party cloud providers
+      </p>
+    </td>
+    <td>
+      <p>Complex, error prone topic for an unexperienced development team</p>
+      <p>
+        Time consuming (on average, 6 months for a 4 experts team to build a
+        basic implementation)
+      </p>
+      <p>
+        Very few and expensive experts capable of develop an optimized solution
+      </p>
+      <p>
+        Robust solution with attention to detail and safer errors handling
+      </p>
+      <p>
+        Modular design to easily adapt and customize to each client use case in
+        the most performant way
+      </p>
+    </td>
+    <td rowspan="3">
+      <p>Streaming and conference services providers</p>
+      <p>Metaverses</p>
+      <p>e-learning</p>
+      <p>Real-time and low latency streaming</p>
+      <p>
+        Any application that needs to handle thousand of simultaneous consumers,
+        both in lots of multiple small sessions or just a few (or one) big ones
+        </p>
+    </td>
+  </tr>
+  <tr>
+    <th style="text-align:center">Key Metrics</th>
+    <th style="text-align:center">Channels</th>
+  </tr>
+  <tr>
+    <td>
+      <p>Number and size of new and renewed clients</p>
+      <p>Became a reference in the sector</p>
+      <p>Be included in comparatives</p>
+    </td>
+    <td>
+      <p>Mouth-to-mouth</p>
+      <p>Organic search</p>
+      <p>Mediasoup forums</p>
+      <p>Technical blog posts</p>
+      <p>LinkedIn</p>
+      <p>Streaming related conferences and events</p>
+      <p>Experts blogs</p>
+    </td>
+  </tr>
+  <tr>
+    <th colspan="3" style="text-align:center">Cost Structure</th>
+    <th colspan="3" style="text-align:center">Revenue Streams</th>
+  </tr>
+  <tr>
+    <td colspan="3">
+      <p>Domain and emails</p>
+      <p>Salaries</p>
+      <p>SaaS servers</p>
+      <p>Company</p>
+      <p>
+        Currently free: GitHub organization repositories, GitHub Actions CI/CD,
+        GitHub Pages hosting
+      </p>
+    </td>
+    <td colspan="3">
+      <p>
+        On-premises licenses for one year with support, or lifetime without
+        support
+      </p>
+      <p>SaaS solution with monthly licenses, based on volume</p>
+      <p>Consultancy and custom development services</p>
+    </td>
+  </tr>
+</table>
+
+## Related pages
+
+- [Slides](/slides/)

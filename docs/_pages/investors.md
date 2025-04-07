@@ -44,19 +44,7 @@ improve the documentation. We are looking for investors and partners to both
 raise funds to help us with the development of the project, and more specially
 for marketing and to prospect for new clients and opportunities.
 
-For development of short-term features, we estimate 100-140 hours of work. That
-can be done in 3-4 weeks, and based on a rate of 100-120k€/h for a international
-level WebRTC Architect role, we are looking for a budget of 12-14k€ to cover the
-development costs during that time.
-
-For marketing and prospecting, we are looking for a budget of 10-15k€ to cover
-the costs of a marketing campaign. That would be focused on the prospecting of
-new clients among the current Mafalda SFU target users, and to raise awareness
-of the project. Also to help us to get in touch with potential partners and
-investors.
-
-Finally, we are looking for a budget of 20-30k€ to cover the costs of the
-development and marketing campaign during the next 3-4 months.
+For more details about invest options, please [contact us](/contact/).
 
 ## Lean Canvas
 

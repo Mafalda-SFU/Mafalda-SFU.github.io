@@ -1,4 +1,5 @@
 ---
+classes: wide
 permalink: /investors/
 title: Investors
 ---

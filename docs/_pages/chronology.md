@@ -197,7 +197,7 @@ Development was temporaly paused due to professional responsibilities.
 - Aggregated scalability (vertical on top of horizontal)
 - Prepare for the next stage: Mediasoup as a Service
 
-### Stage 6: Mediasoup as a Service (April 2025 - Currently in progress)
+## Stage 6: Mediasoup as a Service (April 2025 - Currently in progress)
 
 Notify about actual servers usage so it's possible to spin-up more instances on
 demand, as a previous step to start offering Remote Mediasoup instances on the
@@ -206,9 +206,10 @@ cloud.
 ## Roadmap
 
 All dates are estimated and can suffer of variations. If you are interested on
-any of the future roadmap topics, contact us to discuss for commercial services.
+any of the future roadmap topics, [contact us](/contact) to discuss for
+commercial services.
 
-### Stage 7: Mafalda Monitor: network monitorization (October 2025 - January 2026)
+### Stage 7: Mafalda Monitor: network monitor (October 2025 - January 2026)
 
 Tool to monitor in real time the usage and capacity of all servers and clients
 in the network: CPU usage of `Worker`s, number of `Router`s and `Transport`s...

@@ -51,10 +51,10 @@ Well, there are three reasons for that (*three is a magic number* 🎶):
 3. And finally, we are going to keep the "perpetual beta" status as a reminder
    that we are always looking for feedback, and we are always open to new ideas
    and improvements, so if you have any suggestion, idea, or you want to
-   collaborate with us, please don't hesitate to contact us.
+   collaborate with us, please don't hesitate to [contact us](/contact).
 
 And if you are questioning yourself: no, this is not an April Fools' joke, we
 are really releasing `Mafalda SFU` 1.0 today, we just wanted to make you think
 it 😉 So, if you want to know more about `Mafalda SFU`, please visit our
-[website](https://mafalda.io), or if you want to contact us, please write us to
-<info@mafalda.io>.
+[website](https://mafalda.io), or if you want to [contact us](/contact), please
+write us to <info@mafalda.io>.

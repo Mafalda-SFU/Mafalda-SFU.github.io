@@ -46,6 +46,7 @@ For more details about invest options, please [contact us](/contact/).
 
 ## Lean Canvas
 
+{::nomarkdown}
 <table>
   <tr>
     <th style="text-align:center">Problem</th>
@@ -164,6 +165,7 @@ For more details about invest options, please [contact us](/contact/).
     </td>
   </tr>
 </table>
+{:/}
 
 ## Related pages
 

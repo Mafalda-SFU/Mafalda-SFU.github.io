@@ -46,7 +46,6 @@ For more details about invest options, please [contact us](/contact/).
 
 ## Lean Canvas
 
-{::nomarkdown}
 <table>
   <tr>
     <th style="text-align:center">Problem</th>
@@ -58,81 +57,77 @@ For more details about invest options, please [contact us](/contact/).
   <tr>
     <!-- Problem -->
     <td rowspan="3">
-      <p>
-        Start a project with a cloud provider because it's easy and fast, but
-        find they are not flexible in their use cases, they are expensive in the
-        long run once project grows, and need a full rewrite to migrate to a
-        different provider
-      </p>
-      <p>
-        Start a project with Mediasoup because it's free and performant, but
-        find room are limited to a single CPU core, and scalability is difficult
-        both to program in an efficient way, and to manage them
-      </p>
-      <p>
-        Don't have the knowledge, time or resources to build a custom scalable
-        streaming infrastructure, and need to focus on the application logic
-      </p>
+      Start a project with a cloud provider because it's easy and fast, but find
+      they are not flexible in their use cases, they are expensive in the long
+      run once project grows, and need a full rewrite to migrate to a different
+      provider
+      <br>
+      <br>
+      Start a project with Mediasoup because it's free and performant, but find
+      room are limited to a single CPU core, and scalability is difficult both
+      to program in an efficient way, and to manage them
+      <br>
+      <br>
+      Don't have the knowledge, time or resources to build a custom scalable
+      streaming infrastructure, and need to focus on the application logic
     </td>
     <!-- Solution -->
     <td>
-      <p>
-        Based on Mediasoup API, no need to change the application logic nor
-        learn a new API
-      </p>
-      <p>
-        Not tied to a provider, can migrate to another provider or deploy in
-        local at any moment
-      </p>
-      <p>Migration can be done in minutes instead of weeks or months</p>
+      Based on Mediasoup API, no need to change the application logic nor learn
+      a new API
+      <br>
+      <br>
+      Not tied to a provider, can migrate to another provider or deploy in local
+      at any moment
+      <br>
+      <br>
+      Migration can be done in minutes instead of weeks or months
     </td>
     <!-- Unique Value Proposition -->
     <td rowspan="3" colspan="2">
-      <p>
-        <i>Boutique solution</i>: migrate in minutes to a robust solution that
-        can be hosted on-premises, instead of expend months or years to develop
-        a custom bug-prone solution that needs to be maintained by experts, or
-        depend on expensive and captive third party cloud providers
-      </p>
+      <i>Boutique solution</i>: migrate in minutes to a robust solution that can
+      be hosted on-premises, instead of expend months or years to develop a
+      custom bug-prone solution that needs to be maintained by experts, or
+      depend on expensive and captive third party cloud providers
     </td>
     <!-- Unfair Advantage -->
     <td>
-      <p>Complex, error prone topic for an unexperienced development team</p>
-      <p>
-        Time consuming (on average, 6 months for a 4 experts team to build a
-        basic implementation)
-      </p>
-      <p>
-        Very few and expensive experts capable of develop an optimized solution
-      </p>
-      <p>
-        Robust solution with attention to detail and safer errors handling
-      </p>
-      <p>
-        Modular design to easily adapt and customize to each client use case in
-        the most performant way
-      </p>
+      Complex, error prone topic for an unexperienced development team
+      <br>
+      <br>
+      Time consuming (on average, 6 months for a 4 experts team to build a basic
+      implementation)
+      <br>
+      <br>
+      Very few and expensive experts capable of develop an optimized solution
+      <br>
+      <br>
+      Robust solution with attention to detail and safer errors handling
+      <br>
+      <br>
+      Modular design to easily adapt and customize to each client use case in
+      the most performant way
     </td>
     <!-- Customer Segments -->
     <td rowspan="3">
-      <p>
-        Development of videoconferencing platforms and SDKs
-        <br>
-        Streaming and conference services providers
-      </p>
-      <p>
-        Real-time and low latency media streaming and distribution applications
-      </p>
-      <p>
-        2D/3D/VR metaverses & social platforms
-        <br>
-        Multi-source 3D audio applications
-      </p>
-      <p>Online real-time education and e-learning platforms</p>
-      <p>
-        Videoconferencing and audio/video applications with high number of
-        concurrent rooms or participants
-      </p>
+      Development of videoconferencing platforms and SDKs
+      <br>
+      Streaming and conference services providers
+      <br>
+      <br>
+      Real-time and low latency media streaming and distribution applications
+      <br>
+      <br>
+      2D/3D/VR metaverses & social platforms
+      <br>
+      Multi-source 3D audio applications
+      <br>
+      <br>
+      Online real-time education and e-learning platforms
+      <br>
+      <br>
+      Videoconferencing and audio/video applications with high number of
+      concurrent rooms or participants
     </td>
   </tr>
   <tr>
@@ -142,25 +137,33 @@ For more details about invest options, please [contact us](/contact/).
   <tr>
     <!-- Key Metrics -->
     <td>
-      <p>Number and size of new and renewed clients</p>
-      <p>Became a reference in the sector</p>
-      <p>Be included in comparatives</p>
+      Number and size of new and renewed clients
+      <br>
+      <br>
+      Became a reference in the sector
+      <br>
+      <br>
+      Be included in comparatives
     </td>
     <!-- Channels -->
     <td>
-      <p>
-        Mouth-to-mouth
-        <br>
-        Organic search
-      </p>
-      <p>Mediasoup forums</p>
-      <p>
-        Technical blog posts
-        <br>
-        Experts blogs
-      </p>
-      <p>LinkedIn</p>
-      <p>Streaming related conferences and events</p>
+      Mouth-to-mouth
+      <br>
+      Organic search
+      <br>
+      <br>
+      Mediasoup forums
+      <br>
+      <br>
+      Technical blog posts
+      <br>
+      Experts blogs
+      <br>
+      <br>
+      LinkedIn
+      <br>
+      <br>
+      Streaming related conferences and events
     </td>
   </tr>
   <tr>
@@ -170,34 +173,33 @@ For more details about invest options, please [contact us](/contact/).
   <tr>
     <!-- Cost Structure -->
     <td colspan="3">
-      <p>
-        Domain and emails
-        <br>
-        SaaS servers
-      </p>
-      <p>
-        Create company
-        <br>
-        Salaries
-      </p>
-      <p>
-        <i>Currently free</i>: GitHub organization repositories, GitHub Actions CI/CD,
-        GitHub Pages hosting
-      </p>
+      Domain and emails
+      <br>
+      SaaS servers
+      <br>
+      <br>
+      Create company
+      <br>
+      Salaries
+      <br>
+      <br>
+      <i>Currently free</i>: GitHub organization repositories, GitHub Actions
+      CI/CD, GitHub Pages hosting
     </td>
     <!-- Revenue Streams -->
     <td colspan="3">
-      <p>
-        On-premises licenses for one year with support
-        <br>
-        Lifetime licences without support
-      </p>
-      <p>SaaS solution with monthly licenses, based on volume</p>
-      <p>Consultancy, customization, and development services</p>
+      On-premises licenses for one year with support
+      <br>
+      Lifetime licences without support
+      <br>
+      <br>
+      SaaS solution with monthly licenses, based on volume
+      <br>
+      <br>
+      Consultancy, customization, and development services
     </td>
   </tr>
 </table>
-{:/}
 
 ## Related pages
 

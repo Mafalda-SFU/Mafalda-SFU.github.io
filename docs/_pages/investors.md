@@ -56,6 +56,7 @@ For more details about invest options, please [contact us](/contact/).
     <th style="text-align:center">Customer Segments</th>
   </tr>
   <tr>
+    <!-- Problem -->
     <td rowspan="3">
       <p>
         Start a project with a cloud provider because it's easy and fast, but
@@ -73,6 +74,7 @@ For more details about invest options, please [contact us](/contact/).
         streaming infrastructure, and need to focus on the application logic
       </p>
     </td>
+    <!-- Solution -->
     <td>
       <p>
         Based on Mediasoup API, no need to change the application logic nor
@@ -84,6 +86,7 @@ For more details about invest options, please [contact us](/contact/).
       </p>
       <p>Migration can be done in minutes instead of weeks or months</p>
     </td>
+    <!-- Unique Value Proposition -->
     <td rowspan="3" colspan="2">
       <p>
         Boutique solution: migrate in minutes to a robust solution that can be
@@ -92,6 +95,7 @@ For more details about invest options, please [contact us](/contact/).
         depend on expensive and captive third party cloud providers
       </p>
     </td>
+    <!-- Unfair Advantage -->
     <td>
       <p>Complex, error prone topic for an unexperienced development team</p>
       <p>
@@ -109,6 +113,7 @@ For more details about invest options, please [contact us](/contact/).
         the most performant way
       </p>
     </td>
+    <!-- Customer Segments -->
     <td rowspan="3">
       <p>Streaming and conference services providers</p>
       <p>Metaverses</p>
@@ -125,11 +130,13 @@ For more details about invest options, please [contact us](/contact/).
     <th style="text-align:center">Channels</th>
   </tr>
   <tr>
+    <!-- Key Metrics -->
     <td>
       <p>Number and size of new and renewed clients</p>
       <p>Became a reference in the sector</p>
       <p>Be included in comparatives</p>
     </td>
+    <!-- Channels -->
     <td>
       <p>Mouth-to-mouth</p>
       <p>Organic search</p>
@@ -145,6 +152,7 @@ For more details about invest options, please [contact us](/contact/).
     <th colspan="3" style="text-align:center">Revenue Streams</th>
   </tr>
   <tr>
+    <!-- Cost Structure -->
     <td colspan="3">
       <p>Domain and emails</p>
       <p>Salaries</p>
@@ -155,6 +163,7 @@ For more details about invest options, please [contact us](/contact/).
         GitHub Pages hosting
       </p>
     </td>
+    <!-- Revenue Streams -->
     <td colspan="3">
       <p>
         On-premises licenses for one year with support, or lifetime without

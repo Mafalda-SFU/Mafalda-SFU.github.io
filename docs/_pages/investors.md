@@ -89,9 +89,9 @@ For more details about invest options, please [contact us](/contact/).
     <!-- Unique Value Proposition -->
     <td rowspan="3" colspan="2">
       <p>
-        Boutique solution: migrate in minutes to a robust solution that can be
-        hosted on-premises, instead of expend months or years to develop a
-        custom bug-prone solution that needs to be maintained by experts, or
+        <i>Boutique solution</i>: migrate in minutes to a robust solution that
+        can be hosted on-premises, instead of expend months or years to develop
+        a custom bug-prone solution that needs to be maintained by experts, or
         depend on expensive and captive third party cloud providers
       </p>
     </td>
@@ -115,14 +115,24 @@ For more details about invest options, please [contact us](/contact/).
     </td>
     <!-- Customer Segments -->
     <td rowspan="3">
-      <p>Streaming and conference services providers</p>
-      <p>Metaverses</p>
-      <p>e-learning</p>
-      <p>Real-time and low latency streaming</p>
       <p>
-        Any application that needs to handle thousand of simultaneous consumers,
-        both in lots of multiple small sessions or just a few (or one) big ones
-        </p>
+        Development of videoconferencing platforms and SDKs
+        <br>
+        Streaming and conference services providers
+      </p>
+      <p>
+        Real-time and low latency media streaming and distribution applications
+      </p>
+      <p>
+        2D/3D/VR metaverses & social platforms
+        <br>
+        Multi-source 3D audio applications
+      </p>
+      <p>Online real-time education and e-learning platforms</p>
+      <p>
+        Videoconferencing and audio/video applications with high number of
+        concurrent rooms or participants
+      </p>
     </td>
   </tr>
   <tr>
@@ -138,13 +148,19 @@ For more details about invest options, please [contact us](/contact/).
     </td>
     <!-- Channels -->
     <td>
-      <p>Mouth-to-mouth</p>
-      <p>Organic search</p>
+      <p>
+        Mouth-to-mouth
+        <br>
+        Organic search
+      </p>
       <p>Mediasoup forums</p>
-      <p>Technical blog posts</p>
+      <p>
+        Technical blog posts
+        <br>
+        Experts blogs
+      </p>
       <p>LinkedIn</p>
       <p>Streaming related conferences and events</p>
-      <p>Experts blogs</p>
     </td>
   </tr>
   <tr>
@@ -154,23 +170,30 @@ For more details about invest options, please [contact us](/contact/).
   <tr>
     <!-- Cost Structure -->
     <td colspan="3">
-      <p>Domain and emails</p>
-      <p>Salaries</p>
-      <p>SaaS servers</p>
-      <p>Company</p>
       <p>
-        Currently free: GitHub organization repositories, GitHub Actions CI/CD,
+        Domain and emails
+        <br>
+        SaaS servers
+      </p>
+      <p>
+        Create company
+        <br>
+        Salaries
+      </p>
+      <p>
+        <i>Currently free</i>: GitHub organization repositories, GitHub Actions CI/CD,
         GitHub Pages hosting
       </p>
     </td>
     <!-- Revenue Streams -->
     <td colspan="3">
       <p>
-        On-premises licenses for one year with support, or lifetime without
-        support
+        On-premises licenses for one year with support
+        <br>
+        Lifetime licences without support
       </p>
       <p>SaaS solution with monthly licenses, based on volume</p>
-      <p>Consultancy and custom development services</p>
+      <p>Consultancy, customization, and development services</p>
     </td>
   </tr>
 </table>

@@ -22,7 +22,7 @@ Constructor of the client.
    inmediatly, if not then you'll need to provide it later when calling
    [open()](#openurl) method.
 - `WebSocket`: class used to create WebSocket objects. By default makes use of
-  [unws](https://github.com/sxzz/unws).
+  [Node.js WebSocket global](https://nodejs.org/api/globals.html#websocket).
 
 `url` can also be an object with the same fields.
 
